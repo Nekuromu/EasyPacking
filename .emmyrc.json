@@ -1,0 +1,20 @@
+{
+    "$schema": ".vscode/schema.json",
+    "workspace": {
+        "library": ["F:\\Mod Development\\Project-Zomboid\\Umbrella\\library"],
+        "workspaceRoots": [
+            "Contents/mods/EasyPacking/42/media/lua"
+        ]
+    },
+    "runtime": {
+        "requirePattern": [
+            "shared/?.lua",
+            "client/?.lua",
+            "server/?.lua"
+        ],
+        "version": "Lua5.1"
+    },
+    "diagnostics": {
+        "disable": ["unnecessary-if"]
+    }
+}
