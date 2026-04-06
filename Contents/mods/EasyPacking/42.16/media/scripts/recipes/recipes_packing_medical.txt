@@ -1,0 +1,38 @@
+module EasyPacking {
+    imports
+    {
+        Base,
+    }
+
+    craftRecipe EasyPackingPlace6BoxesInCase {
+        timedAction = PackingBox,
+        time = 50,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+        inputs {
+            item 6 [Base.AdhesiveBandageBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+        }
+        outputs {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType {
+            EasyPacking.AdhesiveBandageCase = Base.AdhesiveBandageBox,
+        }
+    }
+
+    craftRecipe EasyPackingOpenCase6 {
+        timedAction = UnPackBox,
+        time = 50,
+        Tags = InHandCraft;Packing;CanBeDoneInDark,
+        category = Packing,
+        inputs {
+            item 1 [EasyPacking.AdhesiveBandageCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs {
+            item 6 mapper:boxType,
+        }
+        itemMapper boxType {
+            Base.AdhesiveBandageBox = EasyPacking.AdhesiveBandageCase,
+        }
+    }
+}

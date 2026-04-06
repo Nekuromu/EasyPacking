@@ -1,0 +1,9 @@
+module EasyPacking {
+
+    model AdhesiveBandageCase
+    {
+        mesh = WorldItems/AdhesiveBandageCase,
+        texture = WorldItems/AdhesiveBandageCase,
+        scale = 1.0,
+    }
+}

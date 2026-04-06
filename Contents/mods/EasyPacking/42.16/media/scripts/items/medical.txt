@@ -1,0 +1,24 @@
+module EasyPacking
+{
+	imports
+	{
+		Base,
+	}
+
+	item AdhesiveBandageCase {
+		DisplayCategory = FirstAid,
+		ItemType = base:normal,
+		Weight = 10.0,
+		Medical = true,
+		DoubleClickRecipe = EasyPackingOpenCase6,
+		icon = AdhesiveBandageCase,
+		worldstaticmodel = AdhesiveBandageCase,
+	}
+
+	item AlcoholWipesBox {
+		DisplayCategory = FirstAid,
+		ItemType = base:normal,
+		Weight = 3.0,
+		Medical = true,
+	}
+}
