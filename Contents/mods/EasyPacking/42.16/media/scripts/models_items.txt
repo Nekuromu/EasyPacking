@@ -6,4 +6,11 @@ module EasyPacking {
         texture = WorldItems/AdhesiveBandageCase,
         scale = 1.0,
     }
+
+    model AlcoholWipesBox
+    {
+        mesh = WorldItems/SmallBox,
+        texture = WorldItems/AlcoholWipesBox,
+        scale = 1.0,
+    }
 }

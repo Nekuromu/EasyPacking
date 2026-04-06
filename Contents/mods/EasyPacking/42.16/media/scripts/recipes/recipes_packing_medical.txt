@@ -4,35 +4,98 @@ module EasyPacking {
         Base,
     }
 
-    craftRecipe EasyPackingPlace6BoxesInCase {
-        timedAction = PackingBox,
-        time = 50,
-        Tags = InHandCraft;Packing,
+    /* Make sure to add ItemCount to this input below! Or else it won't support drainables correctly! */
+
+    /* craftRecipe EasyPackingPack6 {
+        tags = InHandCraft;Packing,
+        timedaction = PackingBox_Small,
         category = Packing,
+        time = 25,
+        
         inputs {
-            item 6 [Base.AdhesiveBandageBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+        }
+        outputs {
+        }
+        itemMapper itemType {
+        }
+    }
+
+    craftRecipe EasyPackingOpen6 {
+        tags = InHandCraft;Packing;CanBeDoneInDark,
+        timedaction = UnPackBox_Small,
+        category = Packing,
+        time = 25,
+        inputs {
+        }
+        outputs {
+        }
+        itemMapper boxType {
+        }
+    } */
+
+    craftRecipe EasyPackingPack12 {
+        tags = InHandCraft;Packing,
+        timedaction = PackingBox_Small,
+        category = Packing,
+        time = 25,
+        inputs {
+            item 12 [Base.AlcoholWipes] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType {
+            EasyPacking.AlcoholWipesBox = Base.AlcoholWipes,
+        }
+    }
+
+    craftRecipe EasyPackingOpen12 {
+        tags = InHandCraft;Packing;CanBeDoneInDark,
+        timedaction = UnPackBox_Small,
+        category = Packing,
+        time = 25,
+        inputs {
+            item 1 [EasyPacking.AlcoholWipesBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs {
+            item 12 mapper:boxType,
+        }
+        itemMapper boxType {
+            Base.AlcoholWipes = EasyPacking.AlcoholWipesBox,
+        }
+    }
+
+    craftRecipe EasyPackingPack6Case {
+        tags = InHandCraft;Packing,
+        timedaction = PackingBox,
+        category = Packing,
+        time = 50,
+        inputs {
+            item 6 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
         }
         itemMapper itemType {
             EasyPacking.AdhesiveBandageCase = Base.AdhesiveBandageBox,
+            EasyPacking.AlcoholWipesCase = EasyPacking.AlcoholWipesBox,
         }
     }
 
-    craftRecipe EasyPackingOpenCase6 {
-        timedAction = UnPackBox,
-        time = 50,
-        Tags = InHandCraft;Packing;CanBeDoneInDark,
+    craftRecipe EasyPackingOpen6Case {
+        tags = InHandCraft;Packing;CanBeDoneInDark,
+        timedaction = UnPackBox,
         category = Packing,
+        time = 50,
         inputs {
-            item 1 [EasyPacking.AdhesiveBandageCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 6 mapper:boxType,
         }
         itemMapper boxType {
             Base.AdhesiveBandageBox = EasyPacking.AdhesiveBandageCase,
+            EasyPacking.AlcoholWipesBox = EasyPacking.AlcoholWipesCase,
         }
     }
 }
