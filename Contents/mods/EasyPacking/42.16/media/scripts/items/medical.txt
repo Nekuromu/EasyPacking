@@ -44,4 +44,24 @@ module EasyPacking
 		icon = AntibioticsCase,
 		worldstaticmodel = AntibioticsCase,
 	}
+
+	item PillsAntiDepBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = PillsAntiDepBox,
+		worldstaticmodel = PillsAntiDepBox,
+	}
+
+	item PillsAntiDepCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 20.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = PillsAntiDepCase,
+		worldstaticmodel = PillsAntiDepCase,
+	}
 }

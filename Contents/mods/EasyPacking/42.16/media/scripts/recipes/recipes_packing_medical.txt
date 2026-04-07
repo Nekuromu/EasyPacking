@@ -39,13 +39,14 @@ module EasyPacking {
         category = Packing,
         time = 25,
         inputs {
-            item 12 [Base.AlcoholWipes] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+            item 12 [Base.AlcoholWipes;Base.PillsAntiDep] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
         }
         outputs {
             item 1 mapper:itemType,
         }
         itemMapper itemType {
             EasyPacking.AlcoholWipesBox = Base.AlcoholWipes,
+            EasyPacking.PillsAntiDepBox = Base.PillsAntiDep,
         }
     }
 
@@ -55,13 +56,14 @@ module EasyPacking {
         category = Packing,
         time = 25,
         inputs {
-            item 1 [EasyPacking.AlcoholWipesBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholWipesBox;EasyPacking.PillsAntiDepBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 12 mapper:boxType,
         }
         itemMapper boxType {
             Base.AlcoholWipes = EasyPacking.AlcoholWipesBox,
+            Base.PillsAntiDep = EasyPacking.PillsAntiDepBox,
         }
     }
 
@@ -71,7 +73,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 6 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox;Base.AntibioticsBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox;Base.AntibioticsBox;EasyPacking.PillsAntiDepBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
@@ -80,6 +82,7 @@ module EasyPacking {
             EasyPacking.AdhesiveBandageCase = Base.AdhesiveBandageBox,
             EasyPacking.AlcoholWipesCase = EasyPacking.AlcoholWipesBox,
             EasyPacking.AntibioticsCase = Base.AntibioticsBox,
+            EasyPacking.PillsAntiDepCase = EasyPacking.PillsAntiDepBox,
         }
     }
 
@@ -89,7 +92,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.AntibioticsCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 6 mapper:boxType,
@@ -98,6 +101,7 @@ module EasyPacking {
             Base.AdhesiveBandageBox = EasyPacking.AdhesiveBandageCase,
             EasyPacking.AlcoholWipesBox = EasyPacking.AlcoholWipesCase,
             Base.AntibioticsBox = EasyPacking.AntibioticsCase,
+            EasyPacking.PillsAntiDepBox = EasyPacking.PillsAntiDepCase,
         }
     }
 }
