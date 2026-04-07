@@ -34,4 +34,14 @@ module EasyPacking
 		icon = AlcoholWipesBox,
 		worldstaticmodel = AlcoholWipesBox,
 	}
+
+	item AntibioticsCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = AntibioticsCase,
+		worldstaticmodel = AntibioticsCase,
+	}
 }
