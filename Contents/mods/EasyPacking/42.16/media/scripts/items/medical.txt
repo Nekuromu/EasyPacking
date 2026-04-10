@@ -64,4 +64,55 @@ module EasyPacking
 		icon = PillsAntiDepCase,
 		worldstaticmodel = PillsAntiDepCase,
 	}
+
+	item BandageCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = BandageCase,
+		worldstaticmodel = BandageCase,
+	}
+
+	item BandageBoxDirty {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 1.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = BandageBoxDirty,
+		worldstaticmodel = BandageBoxDirty,
+	}
+
+	item BandageCaseDirty {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = BandageCaseDirty,
+		worldstaticmodel = BandageCaseDirty,
+	}
+
+	item PillsBetaBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = PillsBetaBox,
+		worldstaticmodel = PillsBetaBox,
+
+	}
+
+	item PillsBetaCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 20.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = PillsBetaCase,
+		worldstaticmodel = PillsBetaCase,
+	}
 }
