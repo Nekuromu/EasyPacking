@@ -4,19 +4,20 @@ module EasyPacking {
         Base,
     }
 
-    /* Make sure to add ItemCount to this input below! Or else it won't support drainables correctly! */
-
-    /* craftRecipe EasyPackingPack6 {
+    craftRecipe EasyPackingPack6 {
         tags = InHandCraft;Packing,
         timedaction = PackingBox_Small,
         category = Packing,
         time = 25,
         
         inputs {
+            item 6 [Base.Disinfectant] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
         }
         outputs {
+            item 1 mapper:itemType,
         }
         itemMapper itemType {
+            EasyPacking.DisinfectantBox = Base.Disinfectant,
         }
     }
 
@@ -26,12 +27,15 @@ module EasyPacking {
         category = Packing,
         time = 25,
         inputs {
+            item 1 [EasyPacking.DisinfectantBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
+            item 6 mapper:boxType,
         }
         itemMapper boxType {
+            Base.Disinfectant = EasyPacking.DisinfectantBox,
         }
-    } */
+    }
 
     craftRecipe EasyPackingPack12 {
         tags = InHandCraft;Packing,
@@ -77,7 +81,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 6 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox;Base.AntibioticsBox;EasyPacking.PillsAntiDepBox;Base.BandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox;Base.AntibioticsBox;EasyPacking.PillsAntiDepBox;Base.BandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox;Base.CottonBallsBox;EasyPacking.DisinfectantBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
@@ -90,6 +94,8 @@ module EasyPacking {
             EasyPacking.BandageCase = Base.BandageBox,
             EasyPacking.BandageCaseDirty = EasyPacking.BandageBoxDirty,
             EasyPacking.PillsBetaCase = EasyPacking.PillsBetaBox,
+            EasyPacking.CottonBallsCase = Base.CottonBallsBox,
+            EasyPacking.DisinfectantCase = EasyPacking.DisinfectantBox,
         }
     }
 
@@ -99,7 +105,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase;EasyPacking.BandageCase;EasyPacking.BandageCaseDirty;EasyPacking.PillsBetaCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase;EasyPacking.BandageCase;EasyPacking.BandageCaseDirty;EasyPacking.PillsBetaCase;EasyPacking.CottonBallsCase;EasyPacking.DisinfectantCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 6 mapper:boxType,
@@ -112,6 +118,8 @@ module EasyPacking {
             Base.BandageBox = EasyPacking.BandageCase,
             EasyPacking.BandageBoxDirty = EasyPacking.BandageCaseDirty,
             EasyPacking.PillsBetaBox = EasyPacking.PillsBetaCase,
+            Base.CottonBallsBox = EasyPacking.CottonBallsCase,
+            EasyPacking.DisinfectantBox = EasyPacking.DisinfectantCase,
         }
     }
 }

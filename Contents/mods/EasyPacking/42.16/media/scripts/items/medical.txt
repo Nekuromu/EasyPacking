@@ -8,7 +8,7 @@ module EasyPacking
 	item AdhesiveBandageCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 5.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = AdhesiveBandageCase,
@@ -28,7 +28,7 @@ module EasyPacking
 	item AlcoholWipesCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 30.0,
+		weight = 15.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = AlcoholWipesBox,
@@ -38,7 +38,7 @@ module EasyPacking
 	item AntibioticsCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 5.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = AntibioticsCase,
@@ -58,7 +58,7 @@ module EasyPacking
 	item PillsAntiDepCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 20.0,
+		weight = 10.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = PillsAntiDepCase,
@@ -68,7 +68,7 @@ module EasyPacking
 	item BandageCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 5.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = BandageCase,
@@ -88,7 +88,7 @@ module EasyPacking
 	item BandageCaseDirty {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 5.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = BandageCaseDirty,
@@ -109,10 +109,40 @@ module EasyPacking
 	item PillsBetaCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 20.0,
+		weight = 10.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = PillsBetaCase,
 		worldstaticmodel = PillsBetaCase,
+	}
+
+	item CottonBallsCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = CottonBallsCase,
+		worldstaticmodel = CottonBallsCase,
+	}
+
+	item DisinfectantBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 1.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6,
+		icon = DisinfectantBox,
+		worldstaticmodel = DisinfectantBox,
+	}
+
+	item DisinfectantCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = DisinfectantCase,
+		worldstaticmodel = DisinfectantCase,
 	}
 }
