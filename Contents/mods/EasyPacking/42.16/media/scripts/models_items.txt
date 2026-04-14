@@ -2,9 +2,9 @@ module EasyPacking {
 
     model AdhesiveBandageCase
     {
-        mesh = WorldItems/AdhesiveBandageCase,
-        texture = WorldItems/AdhesiveBandageCase,
-        scale = 1.0,
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel4,
+        scale = 0.23,
     }
 
     model AlcoholWipesBox

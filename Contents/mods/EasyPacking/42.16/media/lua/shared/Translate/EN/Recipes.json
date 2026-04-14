@@ -4,5 +4,7 @@
     "EasyPackingPack12": "Pack 12 in a Box",
     "EasyPackingOpen12": "Open Box of 12",
     "EasyPackingPack6Case": "Pack 6 in a Case",
-    "EasyPackingOpen6Case": "Open Case of 6"
+    "EasyPackingOpen6Case": "Open Case of 6",
+    "EasyPackingPack8Case": "Pack 8 in a Case",
+    "EasyPackingOpen8Case": "Open Case of 8"
 }

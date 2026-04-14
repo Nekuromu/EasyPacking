@@ -8,10 +8,10 @@ module EasyPacking
 	item AdhesiveBandageCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 5.0,
+		weight = 6.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = AdhesiveBandageCase,
+		icon = Parcel5,
 		worldstaticmodel = AdhesiveBandageCase,
 	}
 
@@ -144,5 +144,85 @@ module EasyPacking
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = DisinfectantCase,
 		worldstaticmodel = DisinfectantCase,
+	}
+
+	item PillsPainBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = PillsPainBox,
+		worldstaticmodel = PillsPainBox,
+	}
+
+	item PillsPainCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = PillsPainCase,
+		worldstaticmodel = PillsPainCase,
+	}
+
+	item PillsSleepingBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = PillsSleepingBox,
+		worldstaticmodel = PillsSleepingBox,
+	}
+
+	item PillsSleepingCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = PillsSleepingCase,
+		worldstaticmodel = PillsSleepingCase,
+	}
+
+	item AlcoholBandageBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 1.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = AlcoholBandageBox,
+		worldstaticmodel = AlcoholBandageBox,
+	}
+
+	item AlcoholBandageCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = AlcoholBandageCase,
+		worldstaticmodel = AlcoholBandageCase,
+	}
+
+	item PillsVitaminsBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = PillsVitaminsBox,
+		worldstaticmodel = PillsVitaminsBox,
+	}
+
+	item PillsVitaminsCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = PillsVitaminsCase,
+		worldstaticmodel = PillsVitaminsCase,
 	}
 }
