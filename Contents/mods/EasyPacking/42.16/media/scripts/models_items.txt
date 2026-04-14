@@ -20,4 +20,11 @@ module EasyPacking {
         texture = WorldItems/Parcel2,
         scale = 0.32,
     }
+
+    model ColdpackCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel4,
+        scale = 0.265,
+    }
 }

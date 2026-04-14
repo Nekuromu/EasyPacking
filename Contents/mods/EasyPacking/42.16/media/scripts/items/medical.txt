@@ -225,4 +225,15 @@ module EasyPacking
 		icon = PillsVitaminsCase,
 		worldstaticmodel = PillsVitaminsCase,
 	}
+
+	item ColdpackCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = Parcel5,
+		worldstaticmodel = ColdpackCase,
+	}
+
 }

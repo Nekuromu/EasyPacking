@@ -141,7 +141,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 8 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 8 [Base.AdhesiveBandageBox;EasyPacking.AlcoholWipesBox;Base.ColdpackBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
@@ -149,6 +149,7 @@ module EasyPacking {
         itemMapper itemType {
             EasyPacking.AdhesiveBandageCase = Base.AdhesiveBandageBox,
             EasyPacking.AlcoholWipesCase = EasyPacking.AlcoholWipesBox,
+            EasyPacking.ColdpackCase = Base.ColdpackBox,
         }
     }
 
@@ -158,7 +159,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.ColdpackCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 8 mapper:boxType,
@@ -166,6 +167,7 @@ module EasyPacking {
         itemMapper boxType {
             Base.AdhesiveBandageBox = EasyPacking.AdhesiveBandageCase,
             EasyPacking.AlcoholWipesBox = EasyPacking.AlcoholWipesCase,
+            Base.ColdpackBox = EasyPacking.ColdpackCase,
         }
     }
 }
