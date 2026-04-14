@@ -1,16 +1,8 @@
 {
-    "EasyPacking.AdhesiveBandageCase": "Case of Adhesive Bandages",
-    "EasyPacking.AlcoholWipesBox": "Box of Alcohol Wipes",
-    "EasyPacking.AlcoholWipesCase": "Case of Alcohol Wipes",
-    "EasyPacking.AntibioticsCase": "Case of Antibiotics",
-    "EasyPacking.PillsAntiDepBox": "Box of Anti-Depressants",
-    "EasyPacking.PillsAntiDepCase": "Case of Anti-Depressants",
-    "EasyPacking.BandageCase": "Case of Bandages",
-    "EasyPacking.BandageBoxDirty": "Box of Dirty Bandages",
-    "EasyPacking.BandageCaseDirty": "Case of Dirty Bandages",
-    "EasyPacking.PillsBetaBox": "Box of Beta Blockers",
-    "EasyPacking.PillsBetaCase": "Case of Beta Blockers",
-    "EasyPacking.CottonBallsCase": "Case of Cotton Balls",
-    "EasyPacking.DisinfectantBox": "Box of Disinfectant",
-    "EasyPacking.DisinfectantCase": "Case of Disinfectant"
+    "EasyPackingPack6": "Pack 6 in a Box",
+    "EasyPackingOpen6": "Open Box of 6",
+    "EasyPackingPack12": "Pack 12 in a Box",
+    "EasyPackingOpen12": "Open Box of 12",
+    "EasyPackingPack6Case": "Pack 6 in a Case",
+    "EasyPackingOpen6Case": "Open Case of 6"
 }
