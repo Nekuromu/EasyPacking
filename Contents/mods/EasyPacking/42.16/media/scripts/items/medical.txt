@@ -28,7 +28,7 @@ module EasyPacking
 	item AlcoholWipesCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 15.0,
+		weight = 18.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = Parcel5,
@@ -159,7 +159,7 @@ module EasyPacking
 	item PillsPainCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 12.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = PillsPainCase,
@@ -179,7 +179,7 @@ module EasyPacking
 	item PillsSleepingCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 10.0,
+		weight = 12.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
 		icon = PillsSleepingCase,

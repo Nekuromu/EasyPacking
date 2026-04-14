@@ -27,4 +27,137 @@ module EasyPacking {
         texture = WorldItems/Parcel4,
         scale = 0.265,
     }
+
+    model AntibioticsCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.3,
+    }
+
+    model PillsAntiDepBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model PillsAntiDepCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.25,
+    }
+
+    model BandageCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.3,
+    }
+
+    model BandageBoxDirty
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.3,
+    }
+
+    model BandageCaseDirty
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.3,
+    }
+
+    model PillsBetaBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model PillsBetaCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.25,
+    }
+
+    model CottonBallsCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.3,
+    }
+
+    model DisinfectantBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model DisinfectantCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.25,
+    }
+
+    model PillsPainBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model PillsPainCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel4,
+        scale = 0.23,
+    }
+
+    model PillsSleepingBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model PillsSleepingCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel4,
+        scale = 0.23,
+    }
+
+    model AlcoholBandageBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model AlcoholBandageCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.25,
+    }
+
+    model PillsVitaminsBox
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.12,
+    }
+
+    model PillsVitaminsCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.25,
+    }
 }
