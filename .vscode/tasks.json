@@ -49,24 +49,6 @@
             "problemMatcher": []
         },
         {
-            "label": "EasyPacking: Weight Calculator",
-            "type": "shell",
-            "command": "powershell.exe",
-            "args": [
-                "-NoProfile",
-                "-ExecutionPolicy", "Bypass",
-                "-File", "${workspaceFolder}\\Tools\\EasyPacking-WeightCalculator.ps1"
-            ],
-            "group": "none",
-            "presentation": {
-                "reveal": "always",
-                "panel": "dedicated",
-                "clear": true,
-                "focus": true
-            },
-            "problemMatcher": []
-        },
-        {
             "label": "EasyPacking: Open HTML Calculator",
             "type": "shell",
             "command": "Start-Process",
