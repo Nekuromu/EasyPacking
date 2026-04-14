@@ -21,7 +21,7 @@ module EasyPacking
 		weight = 3.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen12,
-		icon = AlcoholWipesBox,
+		icon = Parcel4,
 		worldstaticmodel = AlcoholWipesBox,
 	}
 
@@ -31,8 +31,8 @@ module EasyPacking
 		weight = 15.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = AlcoholWipesBox,
-		worldstaticmodel = AlcoholWipesBox,
+		icon = Parcel5,
+		worldstaticmodel = AlcoholWipesCase,
 	}
 
 	item AntibioticsCase {

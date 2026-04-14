@@ -9,8 +9,15 @@ module EasyPacking {
 
     model AlcoholWipesBox
     {
-        mesh = WorldItems/SmallBox,
-        texture = WorldItems/AlcoholWipesBox,
-        scale = 1.0,
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel5,
+        scale = 0.15,
+    }
+
+    model AlcoholWipesCase
+    {
+        mesh = WorldItems/Parcel2_Text,
+        texture = WorldItems/Parcel2,
+        scale = 0.32,
     }
 }
