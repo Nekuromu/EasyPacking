@@ -14,6 +14,6 @@ desktop.ini
 # Temporary Files
 *.tmp
 *.bak
-*.~
+*~
 *.swp
 *.swo
