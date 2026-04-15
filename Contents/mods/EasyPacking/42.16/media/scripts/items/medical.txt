@@ -10,8 +10,8 @@ module EasyPacking
 		itemtype = base:normal,
 		weight = 6.0,
 		medical = true,
-		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = Parcel5,
+		doubleclickrecipe = EasyPackingOpen8Case,
+		icon = AdhesiveBandageCase,
 		worldstaticmodel = AdhesiveBandageCase,
 	}
 
@@ -21,7 +21,7 @@ module EasyPacking
 		weight = 3.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen12,
-		icon = Parcel4,
+		icon = AlcoholWipesBox,
 		worldstaticmodel = AlcoholWipesBox,
 	}
 
@@ -30,8 +30,8 @@ module EasyPacking
 		itemtype = base:normal,
 		weight = 18.0,
 		medical = true,
-		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = Parcel5,
+		doubleclickrecipe = EasyPackingOpen8Case,
+		icon = AlcoholWipesCase,
 		worldstaticmodel = AlcoholWipesCase,
 	}
 
@@ -81,7 +81,7 @@ module EasyPacking
 		weight = 1.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen12,
-		icon = BandageBoxDirty,
+		icon = GenericMedicalParcel2,
 		worldstaticmodel = BandageBoxDirty,
 	}
 
@@ -129,7 +129,7 @@ module EasyPacking
 	item DisinfectantBox {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 1.0,
+		weight = 3.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6,
 		icon = DisinfectantBox,
@@ -139,9 +139,9 @@ module EasyPacking
 	item DisinfectantCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 5.0,
+		weight = 10.0,
 		medical = true,
-		doubleclickrecipe = EasyPackingOpen6Case,
+		doubleclickrecipe = EasyPackingOpen4Case,
 		icon = DisinfectantCase,
 		worldstaticmodel = DisinfectantCase,
 	}
@@ -159,9 +159,9 @@ module EasyPacking
 	item PillsPainCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 12.0,
+		weight = 10.0,
 		medical = true,
-		doubleclickrecipe = EasyPackingOpen6Case,
+		doubleclickrecipe = EasyPackingOpen8Case,
 		icon = PillsPainCase,
 		worldstaticmodel = PillsPainCase,
 	}
@@ -179,9 +179,9 @@ module EasyPacking
 	item PillsSleepingCase {
 		displaycategory = FirstAid,
 		itemtype = base:normal,
-		weight = 12.0,
+		weight = 10.0,
 		medical = true,
-		doubleclickrecipe = EasyPackingOpen6Case,
+		doubleclickrecipe = EasyPackingOpen8Case,
 		icon = PillsSleepingCase,
 		worldstaticmodel = PillsSleepingCase,
 	}
@@ -192,7 +192,7 @@ module EasyPacking
 		weight = 1.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen12,
-		icon = AlcoholBandageBox,
+		icon = GenericMedicalParcel2,
 		worldstaticmodel = AlcoholBandageBox,
 	}
 
@@ -232,8 +232,28 @@ module EasyPacking
 		weight = 10.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = Parcel5,
+		icon = ColdPackCase,
 		worldstaticmodel = ColdpackCase,
+	}
+
+	item SutureNeedleCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = SutureNeedleCase,
+		worldstaticmodel = SutureNeedleCase,
+	}
+
+	item TongueDepressorCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = TongueDepressorCase,
+		worldstaticmodel = TongueDepressorCase,
 	}
 
 }

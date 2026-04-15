@@ -19,7 +19,9 @@
     "EasyPacking.PillsSleepingCase": "Case of Sleeping Pills",
     "EasyPacking.AlcoholBandageBox": "Box of Sterile Bandages",
     "EasyPacking.AlcoholBandageCase": "Case of Sterile Bandages",
-    "EasyPacking.PillsVitaminsBox": "Box of Caffine Pills",
-    "EasyPacking.PillsVitaminsCase": "Case of Caffine Pills",
-    "EasyPacking.ColdpackCase": "Case of Coldpacks"
+    "EasyPacking.PillsVitaminsBox": "Box of Caffeine Pills",
+    "EasyPacking.PillsVitaminsCase": "Case of Caffeine Pills",
+    "EasyPacking.ColdpackCase": "Case of Coldpacks",
+    "EasyPacking.SutureNeedleCase": "Case of Suture Needles",
+    "EasyPacking.TongueDepressorCase": "Case of Tongue Depressors"
 }
