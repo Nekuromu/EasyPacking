@@ -4,6 +4,39 @@ module EasyPacking {
         Base,
     }
 
+    craftRecipe EasyPackingPack4 {
+        tags = InHandCraft;Packing,
+        timedaction = PackingBox_Small,
+        category = Packing,
+        time = 25,
+        
+        inputs {
+            item 4 [Base.Splint] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType {
+            EasyPacking.SplintBox = Base.Splint,
+        }
+    }
+
+    craftRecipe EasyPackingOpen4 {
+        tags = InHandCraft;Packing;CanBeDoneInDark,
+        timedaction = UnPackBox_Small,
+        category = Packing,
+        time = 25,
+        inputs {
+            item 1 [EasyPacking.SplintBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs {
+            item 4 mapper:boxType,
+        }
+        itemMapper boxType {
+            Base.Splint = EasyPacking.SplintBox,
+        }
+    }
+
     craftRecipe EasyPackingPack6 {
         tags = InHandCraft;Packing,
         timedaction = PackingBox_Small,
@@ -37,13 +70,48 @@ module EasyPacking {
         }
     }
 
+    craftRecipe EasyPackingPack10 {
+        tags = InHandCraft;Packing,
+        timedaction = PackingBox_Small,
+        category = Packing,
+        time = 25,
+        
+        inputs {
+            item 10 [Base.Stethoscope;Base.ScissorsBluntMedical] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+        }
+        outputs {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType {
+            EasyPacking.StethoscopeBox = Base.Stethoscope,
+            EasyPacking.ScissorsBluntMedicalBox = Base.ScissorsBluntMedical,
+        }
+    }
+
+    craftRecipe EasyPackingOpen10 {
+        tags = InHandCraft;Packing;CanBeDoneInDark,
+        timedaction = UnPackBox_Small,
+        category = Packing,
+        time = 25,
+        inputs {
+            item 1 [EasyPacking.StethoscopeBox;EasyPacking.ScissorsBluntMedicalBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs {
+            item 10 mapper:boxType,
+        }
+        itemMapper boxType {
+            Base.Stethoscope = EasyPacking.StethoscopeBox,
+            Base.ScissorsBluntMedical = EasyPacking.ScissorsBluntMedicalBox,
+        }
+    }
+
     craftRecipe EasyPackingPack12 {
         tags = InHandCraft;Packing,
         timedaction = PackingBox_Small,
         category = Packing,
         time = 25,
         inputs {
-            item 12 [Base.AlcoholWipes;Base.PillsAntiDep;Base.BandageDirty;Base.PillsBeta;Base.Pills;Base.PillsSleepingTablets;Base.AlcoholBandage;Base.PillsVitamins] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
+            item 12 [Base.AlcoholWipes;Base.PillsAntiDep;Base.BandageDirty;Base.PillsBeta;Base.Pills;Base.PillsSleepingTablets;Base.AlcoholBandage;Base.PillsVitamins;Base.SutureNeedleHolder;Base.Tweezers] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;ItemCount],
         }
         outputs {
             item 1 mapper:itemType,
@@ -57,6 +125,8 @@ module EasyPacking {
             EasyPacking.PillsSleepingBox = Base.PillsSleepingTablets,
             EasyPacking.AlcoholBandageBox = Base.AlcoholBandage,
             EasyPacking.PillsVitaminsBox = Base.PillsVitamins,
+            EasyPacking.SutureNeedleHolderBox = Base.SutureNeedleHolder,
+            EasyPacking.TweezersBox = Base.Tweezers,
         }
     }
 
@@ -66,7 +136,7 @@ module EasyPacking {
         category = Packing,
         time = 25,
         inputs {
-            item 1 [EasyPacking.AlcoholWipesBox;EasyPacking.PillsAntiDepBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.AlcoholBandageBox;EasyPacking.PillsVitaminsBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholWipesBox;EasyPacking.PillsAntiDepBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.AlcoholBandageBox;EasyPacking.PillsVitaminsBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 12 mapper:boxType,
@@ -80,6 +150,8 @@ module EasyPacking {
             Base.PillsSleepingTablets = EasyPacking.PillsSleepingBox,
             Base.AlcoholBandage = EasyPacking.AlcoholBandageBox,
             Base.PillsVitamins = EasyPacking.PillsVitaminsBox,
+            Base.SutureNeedleHolder = EasyPacking.SutureNeedleHolderBox,
+            Base.Tweezers = EasyPacking.TweezersBox,
         }
     }
 
@@ -89,7 +161,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 4 [EasyPacking.DisinfectantBox;Base.TongueDepressorBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [EasyPacking.DisinfectantBox;Base.TongueDepressorBox;EasyPacking.SplintBox;EasyPacking.StethoscopeBox;EasyPacking.ScissorsBluntMedicalBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
@@ -97,6 +169,9 @@ module EasyPacking {
         itemMapper itemType {
             EasyPacking.DisinfectantCase = EasyPacking.DisinfectantBox,
             EasyPacking.TongueDepressorCase = Base.TongueDepressorBox,
+            EasyPacking.SplintCase = EasyPacking.SplintBox,
+            EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
+            EasyPacking.ScissorsBluntMedicalCase = EasyPacking.ScissorsBluntMedicalBox,
         }
     }
 
@@ -106,7 +181,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 1 [EasyPacking.DisinfectantCase;EasyPacking.TongueDepressorCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.DisinfectantCase;EasyPacking.TongueDepressorCase;EasyPacking.SplintCase;EasyPacking.StethoscopeCase;EasyPacking.ScissorsBluntMedicalCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs {
             item 4 mapper:boxType,
@@ -114,6 +189,9 @@ module EasyPacking {
         itemMapper boxType {
             EasyPacking.DisinfectantBox = EasyPacking.DisinfectantCase,
             EasyPacking.TongueDepressorBox = EasyPacking.TongueDepressorCase,
+            EasyPacking.SplintBox = EasyPacking.SplintCase,
+            EasyPacking.StethoscopeBox = EasyPacking.StethoscopeCase,
+            EasyPacking.ScissorsBluntMedicalBox = EasyPacking.ScissorsBluntMedicalCase,
         }
     }
 
@@ -123,7 +201,7 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 6 [Base.AntibioticsBox;EasyPacking.PillsAntiDepBox;Base.BandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox;Base.CottonBallsBox;EasyPacking.AlcoholBandageBox;EasyPacking.PillsVitaminsBox;Base.SutureNeedleBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.AntibioticsBox;EasyPacking.PillsAntiDepBox;Base.BandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsBetaBox;Base.CottonBallsBox;EasyPacking.AlcoholBandageBox;EasyPacking.PillsVitaminsBox;Base.SutureNeedleBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs {
             item 1 mapper:itemType,
@@ -138,6 +216,8 @@ module EasyPacking {
             EasyPacking.AlcoholBandageCase = EasyPacking.AlcoholBandageBox,
             EasyPacking.PillsVitaminsCase = EasyPacking.PillsVitaminsBox,
             EasyPacking.SutureNeedleCase = Base.SutureNeedleBox,
+            EasyPacking.SutureNeedleHolderCase = EasyPacking.SutureNeedleHolderBox,
+            EasyPacking.TweezersCase = EasyPacking.TweezersBox,
         }
     }
 
@@ -147,9 +227,9 @@ module EasyPacking {
         category = Packing,
         time = 50,
         inputs {
-            item 1 [EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase;EasyPacking.BandageCase;EasyPacking.BandageCaseDirty;EasyPacking.PillsBetaCase;EasyPacking.CottonBallsCase;EasyPacking.AlcoholBandageCase;EasyPacking.PillsVitaminsCase;EasyPacking.SutureNeedleCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase;EasyPacking.BandageCase;EasyPacking.BandageCaseDirty;EasyPacking.PillsBetaCase;EasyPacking.CottonBallsCase;EasyPacking.AlcoholBandageCase;EasyPacking.PillsVitaminsCase;EasyPacking.SutureNeedleCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.TweezersCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
-        outputs {
+            outputs {
             item 6 mapper:boxType,
         }
         itemMapper boxType {
@@ -162,6 +242,8 @@ module EasyPacking {
             EasyPacking.AlcoholBandageBox = EasyPacking.AlcoholBandageCase,
             EasyPacking.PillsVitaminsBox = EasyPacking.PillsVitaminsCase,
             Base.SutureNeedleBox = EasyPacking.SutureNeedleCase,
+            EasyPacking.SutureNeedleHolderBox = EasyPacking.SutureNeedleHolderCase,
+            EasyPacking.TweezersBox = EasyPacking.TweezersCase,
         }
     }
 

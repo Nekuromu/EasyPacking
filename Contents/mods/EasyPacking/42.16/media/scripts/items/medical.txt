@@ -256,4 +256,103 @@ module EasyPacking
 		worldstaticmodel = TongueDepressorCase,
 	}
 
+	item SplintBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 3.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = SplintBox,
+		worldstaticmodel = SplintBox,
+	}
+
+	item SplintCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 10.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = SplintCase,
+		worldstaticmodel = SplintCase,
+	}
+
+	item SutureNeedleHolderBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 3.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = SutureNeedleHolderBox,
+		worldstaticmodel = SutureNeedleHolderBox,
+	}
+
+	item SutureNeedleHolderCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 12.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = SutureNeedleHolderCase,
+		worldstaticmodel = SutureNeedleHolderCase,
+	}
+
+	item StethoscopeBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = StethoscopeBox,
+		worldstaticmodel = StethoscopeBox,
+	}
+
+	item StethoscopeCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 6.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = StethoscopeCase,
+		worldstaticmodel = StethoscopeCase,
+	}
+
+	item ScissorsBluntMedicalBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 2.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = ScissorsBluntMedicalBox,
+		worldstaticmodel = ScissorsBluntMedicalBox,
+	}
+
+	item ScissorsBluntMedicalCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 9.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = ScissorsBluntMedicalCase,
+		worldstaticmodel = ScissorsBluntMedicalCase,
+	}
+
+	item TweezersBox {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 1.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen12,
+		icon = TweezersBox,
+		worldstaticmodel = TweezersBox,
+	}
+
+	item TweezersCase {
+		displaycategory = FirstAid,
+		itemtype = base:normal,
+		weight = 5.0,
+		medical = true,
+		doubleclickrecipe = EasyPackingOpen6Case,
+		icon = TweezersCase,
+		worldstaticmodel = TweezersCase,
+	}
 }

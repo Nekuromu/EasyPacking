@@ -174,4 +174,74 @@ module EasyPacking {
         texture = WorldItems/UntitledTexture,
         scale = 0.25,
     }
+
+    model SplintBox
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model SplintCase
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model SutureNeedleHolderBox
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model SutureNeedleHolderCase
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model StethoscopeBox
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model StethoscopeCase
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model ScissorsBluntMedicalBox
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model ScissorsBluntMedicalCase
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model TweezersBox
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
+
+    model TweezersCase
+    {
+        mesh = WorldItems/UntitledModel,
+        texture = WorldItems/UntitledTexture,
+        scale = 0.20,
+    }
 }

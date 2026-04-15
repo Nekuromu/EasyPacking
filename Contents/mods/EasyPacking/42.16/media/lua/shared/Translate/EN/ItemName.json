@@ -23,5 +23,15 @@
     "EasyPacking.PillsVitaminsCase": "Case of Caffeine Pills",
     "EasyPacking.ColdpackCase": "Case of Coldpacks",
     "EasyPacking.SutureNeedleCase": "Case of Suture Needles",
-    "EasyPacking.TongueDepressorCase": "Case of Tongue Depressors"
+    "EasyPacking.TongueDepressorCase": "Case of Tongue Depressors",
+    "EasyPacking.SplintBox": "Box of Splints",
+    "EasyPacking.SplintCase": "Case of Splints",
+    "EasyPacking.SutureNeedleHolderBox": "Box of Forceps",
+    "EasyPacking.SutureNeedleHolderCase": "Case of Forceps",
+    "EasyPacking.StethoscopeBox": "Box of Stethoscopes",
+    "EasyPacking.StethoscopeCase": "Case of Stethoscopes",
+    "EasyPacking.ScissorsBluntMedicalBox": "Box of Medical Shears",
+    "EasyPacking.ScissorsBluntMedicalCase": "Case of Medical Shears",
+    "EasyPacking.TweezersBox": "Box of Tweezers",
+    "EasyPacking.TweezersCase": "Case of Tweezers"
 }
