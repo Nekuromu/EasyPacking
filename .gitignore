@@ -1,0 +1,19 @@
+# Dev Files
+Tools/
+DevelopmentDocs/
+
+# Editor/IDE
+.vscode/
+.emmyrc.json
+
+# OS Files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.bak
+*.~
+*.swp
+*.swo
