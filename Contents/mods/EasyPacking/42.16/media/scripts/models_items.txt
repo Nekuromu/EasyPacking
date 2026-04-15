@@ -21,13 +21,6 @@ module EasyPacking {
         scale = 0.32,
     }
 
-    model ColdpackCase
-    {
-        mesh = WorldItems/Parcel4_Text,
-        texture = WorldItems/Parcel4,
-        scale = 0.265,
-    }
-
     model AntibioticsCase
     {
         mesh = WorldItems/Parcel2_Text,
@@ -37,16 +30,16 @@ module EasyPacking {
 
     model PillsAntiDepBox
     {
-        mesh = WorldItems/Parcel_Present_5,
-        texture = WorldItems/Parcel5,
-        scale = 0.12,
+        mesh = WorldItems/PillsBottle_Large,
+        texture = WorldItems/LargePillsAntiDep,
+        scale = 1.10,
     }
 
     model PillsAntiDepCase
     {
         mesh = WorldItems/Parcel2_Text,
         texture = WorldItems/Parcel2,
-        scale = 0.25,
+        scale = 0.28,
     }
 
     model BandageCase
@@ -72,16 +65,16 @@ module EasyPacking {
 
     model PillsBetaBox
     {
-        mesh = WorldItems/Parcel_Present_5,
-        texture = WorldItems/Parcel5,
-        scale = 0.12,
+        mesh = WorldItems/PillsBottle_Large,
+        texture = WorldItems/PillsBottle_Large,
+        scale = 1.10,
     }
 
     model PillsBetaCase
     {
         mesh = WorldItems/Parcel2_Text,
         texture = WorldItems/Parcel2,
-        scale = 0.25,
+        scale = 0.28,
     }
 
     model CottonBallsCase
@@ -159,5 +152,12 @@ module EasyPacking {
         mesh = WorldItems/Parcel2_Text,
         texture = WorldItems/Parcel2,
         scale = 0.25,
+    }
+
+    model ColdpackCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel4,
+        scale = 0.265,
     }
 }
