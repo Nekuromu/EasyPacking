@@ -177,71 +177,71 @@ module EasyPacking {
 
     model SplintBox
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_3,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.18,
     }
 
     model SplintCase
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_3,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.32,
     }
 
     model SutureNeedleHolderBox
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_5,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.16,
     }
 
     model SutureNeedleHolderCase
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_5,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.32,
     }
 
     model StethoscopeBox
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_3,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.18,
     }
 
     model StethoscopeCase
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_3,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.32,
     }
 
     model ScissorsBluntMedicalBox
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_5,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.16,
     }
 
     model ScissorsBluntMedicalCase
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_5,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.32,
     }
 
     model TweezersBox
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel_Present_5,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.12,
     }
 
     model TweezersCase
     {
-        mesh = WorldItems/UntitledModel,
+        mesh = WorldItems/Parcel4_Text,
         texture = WorldItems/UntitledTexture,
-        scale = 0.20,
+        scale = 0.23,
     }
 }
