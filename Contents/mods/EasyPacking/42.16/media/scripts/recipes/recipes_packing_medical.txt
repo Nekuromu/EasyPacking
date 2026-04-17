@@ -229,7 +229,7 @@ module EasyPacking {
         inputs {
             item 1 [EasyPacking.AntibioticsCase;EasyPacking.PillsAntiDepCase;EasyPacking.BandageCase;EasyPacking.BandageCaseDirty;EasyPacking.PillsBetaCase;EasyPacking.CottonBallsCase;EasyPacking.AlcoholBandageCase;EasyPacking.PillsVitaminsCase;EasyPacking.SutureNeedleCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.TweezersCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
-            outputs {
+        outputs {
             item 6 mapper:boxType,
         }
         itemMapper boxType {

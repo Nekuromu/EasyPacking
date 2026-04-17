@@ -232,7 +232,7 @@ module EasyPacking
 		weight = 10.0,
 		medical = true,
 		doubleclickrecipe = EasyPackingOpen6Case,
-		icon = ColdPackCase,
+		icon = ColdpackCase,
 		worldstaticmodel = ColdpackCase,
 	}
 
