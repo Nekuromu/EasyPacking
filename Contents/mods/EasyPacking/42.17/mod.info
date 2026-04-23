@@ -6,4 +6,4 @@ poster=poster.png
 icon=icon.png
 modversion=v2.0.0-dev
 category = value
-versionMin=42.16
+versionMin=42.17
