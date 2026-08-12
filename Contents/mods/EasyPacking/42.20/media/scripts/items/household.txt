@@ -26,6 +26,26 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item BleachBox
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 0.7,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item BleachCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 2.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item BluePenBox
     {
         DisplayCategory = Misc,
@@ -41,6 +61,26 @@ module EasyPacking
         DisplayCategory = Misc,
         ItemType = base:normal,
         Weight = 1.3,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item CleaningLiquid2Box
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 2.0,
+        DoubleClickRecipe = EasyPackingOpen8,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item CleaningLiquid2Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
         Icon = PakRatTODO,
         WorldStaticModel = PakRatTODO,

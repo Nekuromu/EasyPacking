@@ -269,6 +269,26 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item ScalpelBox
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.0,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item ScalpelCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.7,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item ScissorsBluntMedicalBox
     {
         DisplayCategory = FirstAid,
