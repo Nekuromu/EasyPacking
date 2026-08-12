@@ -97,6 +97,13 @@ module EasyPacking
         scale = 0.38,
     }
 
+    model PakRatTODO
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/MedicalParcel_Medium,
+        scale = 0.125,
+    }
+
     model PillsAntiDepBox
     {
         mesh = WorldItems/PillsBottle_Large,

@@ -35,7 +35,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AlcoholBandageBox;EasyPacking.AlcoholWipesBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsAntiDepBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholBandageBox;EasyPacking.AlcoholWipesBox;EasyPacking.AmplifierBox;EasyPacking.BandageBoxDirty;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.PillsAntiDepBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -45,12 +45,17 @@ module EasyPacking
         {
             Base.AlcoholBandage = EasyPacking.AlcoholBandageBox,
             Base.AlcoholWipes = EasyPacking.AlcoholWipesBox,
+            Base.Amplifier = EasyPacking.AmplifierBox,
             Base.BandageDirty = EasyPacking.BandageBoxDirty,
+            Base.ElectricWire = EasyPacking.ElectricalWireBox,
+            Base.ElectronicsScrap = EasyPacking.ElectronicsScrapBox,
             Base.Pills = EasyPacking.PillsPainBox,
             Base.PillsAntiDep = EasyPacking.PillsAntiDepBox,
             Base.PillsBeta = EasyPacking.PillsBetaBox,
             Base.PillsSleepingTablets = EasyPacking.PillsSleepingBox,
             Base.PillsVitamins = EasyPacking.PillsVitaminsBox,
+            Base.RadioReceiver = EasyPacking.RadioReceiverBox,
+            Base.RadioTransmitter = EasyPacking.RadioTransmitterBox,
             Base.SutureNeedleHolder = EasyPacking.SutureNeedleHolderBox,
             Base.Tweezers = EasyPacking.TweezersBox,
         }
@@ -84,7 +89,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.DisinfectantCase;EasyPacking.ScissorsBluntMedicalCase;EasyPacking.SplintCase;EasyPacking.StethoscopeCase;EasyPacking.TongueDepressorCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AmplifierCase;EasyPacking.BatteryCase;EasyPacking.DisinfectantCase;EasyPacking.ElectricalWireCase;EasyPacking.ElectronicsScrapCase;EasyPacking.LightBulbBlueCase;EasyPacking.LightBulbCase;EasyPacking.LightBulbCyanCase;EasyPacking.LightBulbGreenCase;EasyPacking.LightBulbMagentaCase;EasyPacking.LightBulbOrangeCase;EasyPacking.LightBulbPinkCase;EasyPacking.LightBulbPurpleCase;EasyPacking.LightBulbRedCase;EasyPacking.LightBulbYellowCase;EasyPacking.RadioReceiverCase;EasyPacking.RadioTransmitterCase;EasyPacking.ScissorsBluntMedicalCase;EasyPacking.SplintCase;EasyPacking.StethoscopeCase;EasyPacking.TongueDepressorCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -92,8 +97,24 @@ module EasyPacking
         }
         itemMapper boxType
         {
+            Base.BatteryBox = EasyPacking.BatteryCase,
+            Base.LightBulbBox = EasyPacking.LightBulbCase,
             Base.TongueDepressorBox = EasyPacking.TongueDepressorCase,
+            EasyPacking.AmplifierBox = EasyPacking.AmplifierCase,
             EasyPacking.DisinfectantBox = EasyPacking.DisinfectantCase,
+            EasyPacking.ElectricalWireBox = EasyPacking.ElectricalWireCase,
+            EasyPacking.ElectronicsScrapBox = EasyPacking.ElectronicsScrapCase,
+            EasyPacking.LightBulbBlueBox = EasyPacking.LightBulbBlueCase,
+            EasyPacking.LightBulbCyanBox = EasyPacking.LightBulbCyanCase,
+            EasyPacking.LightBulbGreenBox = EasyPacking.LightBulbGreenCase,
+            EasyPacking.LightBulbMagentaBox = EasyPacking.LightBulbMagentaCase,
+            EasyPacking.LightBulbOrangeBox = EasyPacking.LightBulbOrangeCase,
+            EasyPacking.LightBulbPinkBox = EasyPacking.LightBulbPinkCase,
+            EasyPacking.LightBulbPurpleBox = EasyPacking.LightBulbPurpleCase,
+            EasyPacking.LightBulbRedBox = EasyPacking.LightBulbRedCase,
+            EasyPacking.LightBulbYellowBox = EasyPacking.LightBulbYellowCase,
+            EasyPacking.RadioReceiverBox = EasyPacking.RadioReceiverCase,
+            EasyPacking.RadioTransmitterBox = EasyPacking.RadioTransmitterCase,
             EasyPacking.ScissorsBluntMedicalBox = EasyPacking.ScissorsBluntMedicalCase,
             EasyPacking.SplintBox = EasyPacking.SplintCase,
             EasyPacking.StethoscopeBox = EasyPacking.StethoscopeCase,
@@ -108,7 +129,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.DisinfectantBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.DisinfectantBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -117,6 +138,15 @@ module EasyPacking
         itemMapper boxType
         {
             Base.Disinfectant = EasyPacking.DisinfectantBox,
+            Base.LightBulbBlue = EasyPacking.LightBulbBlueBox,
+            Base.LightBulbCyan = EasyPacking.LightBulbCyanBox,
+            Base.LightBulbGreen = EasyPacking.LightBulbGreenBox,
+            Base.LightBulbMagenta = EasyPacking.LightBulbMagentaBox,
+            Base.LightBulbOrange = EasyPacking.LightBulbOrangeBox,
+            Base.LightBulbPink = EasyPacking.LightBulbPinkBox,
+            Base.LightBulbPurple = EasyPacking.LightBulbPurpleBox,
+            Base.LightBulbRed = EasyPacking.LightBulbRedBox,
+            Base.LightBulbYellow = EasyPacking.LightBulbYellowBox,
         }
     }
 
@@ -203,7 +233,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 12 [Base.AlcoholBandage;Base.AlcoholWipes;Base.BandageDirty;Base.Pills;Base.PillsAntiDep;Base.PillsBeta;Base.PillsSleepingTablets;Base.PillsVitamins;Base.SutureNeedleHolder;Base.Tweezers] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 12 [Base.AlcoholBandage;Base.AlcoholWipes;Base.Amplifier;Base.BandageDirty;Base.ElectricWire;Base.ElectronicsScrap;Base.Pills;Base.PillsAntiDep;Base.PillsBeta;Base.PillsSleepingTablets;Base.PillsVitamins;Base.RadioReceiver;Base.RadioTransmitter;Base.SutureNeedleHolder;Base.Tweezers] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -213,12 +243,17 @@ module EasyPacking
         {
             EasyPacking.AlcoholBandageBox = Base.AlcoholBandage,
             EasyPacking.AlcoholWipesBox = Base.AlcoholWipes,
+            EasyPacking.AmplifierBox = Base.Amplifier,
             EasyPacking.BandageBoxDirty = Base.BandageDirty,
+            EasyPacking.ElectricalWireBox = Base.ElectricWire,
+            EasyPacking.ElectronicsScrapBox = Base.ElectronicsScrap,
             EasyPacking.PillsAntiDepBox = Base.PillsAntiDep,
             EasyPacking.PillsBetaBox = Base.PillsBeta,
             EasyPacking.PillsPainBox = Base.Pills,
             EasyPacking.PillsSleepingBox = Base.PillsSleepingTablets,
             EasyPacking.PillsVitaminsBox = Base.PillsVitamins,
+            EasyPacking.RadioReceiverBox = Base.RadioReceiver,
+            EasyPacking.RadioTransmitterBox = Base.RadioTransmitter,
             EasyPacking.SutureNeedleHolderBox = Base.SutureNeedleHolder,
             EasyPacking.TweezersBox = Base.Tweezers,
         }
@@ -252,7 +287,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 4 [Base.TongueDepressorBox;EasyPacking.DisinfectantBox;EasyPacking.ScissorsBluntMedicalBox;EasyPacking.SplintBox;EasyPacking.StethoscopeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [Base.BatteryBox;Base.LightBulbBox;Base.TongueDepressorBox;EasyPacking.AmplifierBox;EasyPacking.DisinfectantBox;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.ScissorsBluntMedicalBox;EasyPacking.SplintBox;EasyPacking.StethoscopeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -260,7 +295,23 @@ module EasyPacking
         }
         itemMapper itemType
         {
+            EasyPacking.AmplifierCase = EasyPacking.AmplifierBox,
+            EasyPacking.BatteryCase = Base.BatteryBox,
             EasyPacking.DisinfectantCase = EasyPacking.DisinfectantBox,
+            EasyPacking.ElectricalWireCase = EasyPacking.ElectricalWireBox,
+            EasyPacking.ElectronicsScrapCase = EasyPacking.ElectronicsScrapBox,
+            EasyPacking.LightBulbBlueCase = EasyPacking.LightBulbBlueBox,
+            EasyPacking.LightBulbCase = Base.LightBulbBox,
+            EasyPacking.LightBulbCyanCase = EasyPacking.LightBulbCyanBox,
+            EasyPacking.LightBulbGreenCase = EasyPacking.LightBulbGreenBox,
+            EasyPacking.LightBulbMagentaCase = EasyPacking.LightBulbMagentaBox,
+            EasyPacking.LightBulbOrangeCase = EasyPacking.LightBulbOrangeBox,
+            EasyPacking.LightBulbPinkCase = EasyPacking.LightBulbPinkBox,
+            EasyPacking.LightBulbPurpleCase = EasyPacking.LightBulbPurpleBox,
+            EasyPacking.LightBulbRedCase = EasyPacking.LightBulbRedBox,
+            EasyPacking.LightBulbYellowCase = EasyPacking.LightBulbYellowBox,
+            EasyPacking.RadioReceiverCase = EasyPacking.RadioReceiverBox,
+            EasyPacking.RadioTransmitterCase = EasyPacking.RadioTransmitterBox,
             EasyPacking.ScissorsBluntMedicalCase = EasyPacking.ScissorsBluntMedicalBox,
             EasyPacking.SplintCase = EasyPacking.SplintBox,
             EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
@@ -276,7 +327,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 6 [Base.Disinfectant] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.Disinfectant;Base.LightBulbBlue;Base.LightBulbCyan;Base.LightBulbGreen;Base.LightBulbMagenta;Base.LightBulbOrange;Base.LightBulbPink;Base.LightBulbPurple;Base.LightBulbRed;Base.LightBulbYellow] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -285,6 +336,15 @@ module EasyPacking
         itemMapper itemType
         {
             EasyPacking.DisinfectantBox = Base.Disinfectant,
+            EasyPacking.LightBulbBlueBox = Base.LightBulbBlue,
+            EasyPacking.LightBulbCyanBox = Base.LightBulbCyan,
+            EasyPacking.LightBulbGreenBox = Base.LightBulbGreen,
+            EasyPacking.LightBulbMagentaBox = Base.LightBulbMagenta,
+            EasyPacking.LightBulbOrangeBox = Base.LightBulbOrange,
+            EasyPacking.LightBulbPinkBox = Base.LightBulbPink,
+            EasyPacking.LightBulbPurpleBox = Base.LightBulbPurple,
+            EasyPacking.LightBulbRedBox = Base.LightBulbRed,
+            EasyPacking.LightBulbYellowBox = Base.LightBulbYellow,
         }
     }
 

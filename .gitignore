@@ -1,18 +1,14 @@
 # Dev Files
 DevelopmentDocs/*
+tmp/*
+output/*
 
 # Keep legacy/local tool files ignored;
 Tools/*
 output/*
 
 # PakRat Studio build and local state
-Tools/PakRatStudio/**/bin/
-Tools/PakRatStudio/**/obj/
-Tools/PakRatStudio/.vs/
-Tools/PakRatStudio/TestResults/
-Tools/PakRatStudio/Artifacts/
-Tools/PakRatStudio/**/Assets/Generated/
-*.user
+Tools/*
 
 # Editor/IDE
 .vscode/*
