@@ -31,4 +31,4 @@ desktop.ini
 *.swo
 
 # Specific Files
-Contents/mods/EasyPacking/*/media/textures/Item_PakRatTODO.png
+Contents/mods/EasyPacking/**/media/textures/Item_PakRatTODO.png
