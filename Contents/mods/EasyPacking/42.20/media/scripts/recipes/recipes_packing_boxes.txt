@@ -80,7 +80,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.SplintBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.ToiletPaperPack] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -88,7 +88,9 @@ module EasyPacking
         }
         itemMapper boxType
         {
+            Base.Soap2 = EasyPacking.Soap2Box,
             Base.Splint = EasyPacking.SplintBox,
+            Base.ToiletPaper = EasyPacking.ToiletPaperPack,
         }
     }
 
@@ -195,7 +197,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 4 [Base.Splint] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [Base.Soap2;Base.Splint;Base.ToiletPaper] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -203,7 +205,9 @@ module EasyPacking
         }
         itemMapper itemType
         {
+            EasyPacking.Soap2Box = Base.Soap2,
             EasyPacking.SplintBox = Base.Splint,
+            EasyPacking.ToiletPaperPack = Base.ToiletPaper,
         }
     }
 

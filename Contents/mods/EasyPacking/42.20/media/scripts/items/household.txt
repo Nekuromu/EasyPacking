@@ -186,4 +186,64 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item RippedSheetsCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.7,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item RippedSheetsDirtyBundle
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.7,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item Soap2Box
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 0.7,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item Soap2Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 2.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item ToiletPaperCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 17.0,
+        DoubleClickRecipe = EasyPackingOpen12Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item ToiletPaperPack
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.7,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
 }
