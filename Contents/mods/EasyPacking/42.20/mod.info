@@ -1,9 +1,9 @@
-name=Easy Packing For Vanilla v2.0.0-dev
+name=Easy Packing For Vanilla v2.1.0-dev
 id=EasyPacking
 author=GoldBar, Diakon, MrNekuromu
 description=EasyPacking is a standalone mod that lets players bundle (pack) multiple copies of an item—such as ammo, bandages, or even books—into neatly compressed packages.
 poster=poster.png
 icon=icon.png
-modversion=v2.0.0-dev
+modversion=v2.1.0-dev
 category = value
-versionMin=42.17
+versionMin=42.20
