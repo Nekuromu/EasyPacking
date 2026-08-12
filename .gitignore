@@ -1,9 +1,21 @@
 # Dev Files
-Tools/
 DevelopmentDocs/
 
+# Keep legacy/local tool files ignored;
+Tools/*
+output/*
+
+# PakRat Studio build and local state
+Tools/PakRatStudio/**/bin/
+Tools/PakRatStudio/**/obj/
+Tools/PakRatStudio/.vs/
+Tools/PakRatStudio/TestResults/
+Tools/PakRatStudio/Artifacts/
+Tools/PakRatStudio/**/Assets/Generated/
+*.user
+
 # Editor/IDE
-.vscode/
+.vscode/*
 .emmyrc.json
 
 # OS Files
@@ -17,3 +29,6 @@ desktop.ini
 *~
 *.swp
 *.swo
+
+# Specific Files
+Contents/mods/EasyPacking/42.17/media/textures/Item_PakRatTODO.png
