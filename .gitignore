@@ -1,5 +1,5 @@
 # Dev Files
-DevelopmentDocs/
+DevelopmentDocs/*
 
 # Keep legacy/local tool files ignored;
 Tools/*
