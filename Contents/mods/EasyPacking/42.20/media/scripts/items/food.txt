@@ -6,6 +6,28 @@ module EasyPacking
         Base,
     }
 
+    item BaconCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 3.3,
+        DoubleClickRecipe = EasyPackingOpen4FullCase,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item BaconPack
+    {
+        DisplayCategory = Misc,
+        ItemType = base:drainable,
+        Weight = 1.0,
+        DoubleClickRecipe = EasyPackingTakeFromDispenser4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+        UseDelta = 0.25,
+        UseWhileEquipped = false,
+    }
+
     item BeefJerkyCase
     {
         DisplayCategory = Misc,
@@ -84,6 +106,28 @@ module EasyPacking
         DoubleClickRecipe = EasyPackingOpen8Case,
         Icon = PakRatTODO,
         WorldStaticModel = PakRatTODO,
+    }
+
+    item PorkRindsCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.0,
+        DoubleClickRecipe = EasyPackingOpen4FullCase,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item PorkRindsPack
+    {
+        DisplayCategory = Misc,
+        ItemType = base:drainable,
+        Weight = 0.3,
+        DoubleClickRecipe = EasyPackingTakeFromDispenser4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+        UseDelta = 0.25,
+        UseWhileEquipped = false,
     }
 
     item Teabag2Box

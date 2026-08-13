@@ -104,6 +104,27 @@ module EasyPacking
         }
     }
 
+    craftRecipe EasyPackingOpen4FullCase
+    {
+        timedAction = UnPackBox,
+        time = 50,
+        Tags = InHandCraft;Packing;CanBeDoneInDark,
+        category = Packing,
+        inputs
+        {
+            item 1 [EasyPacking.BaconCase;EasyPacking.PorkRindsCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 4 mapper:boxType,
+        }
+        itemMapper boxType
+        {
+            EasyPacking.BaconPack = EasyPacking.BaconCase,
+            EasyPacking.PorkRindsPack = EasyPacking.PorkRindsCase,
+        }
+    }
+
     craftRecipe EasyPackingOpen6Case
     {
         timedAction = UnPackBox,
@@ -258,6 +279,27 @@ module EasyPacking
             EasyPacking.SplintCase = EasyPacking.SplintBox,
             EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
             EasyPacking.TongueDepressorCase = Base.TongueDepressorBox,
+        }
+    }
+
+    craftRecipe EasyPackingPack4FullCase
+    {
+        timedAction = PackingBox,
+        time = 50,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+        inputs
+        {
+            item 4 [EasyPacking.BaconPack;EasyPacking.PorkRindsPack] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;IsFull],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            EasyPacking.BaconCase = EasyPacking.BaconPack,
+            EasyPacking.PorkRindsCase = EasyPacking.PorkRindsPack,
         }
     }
 

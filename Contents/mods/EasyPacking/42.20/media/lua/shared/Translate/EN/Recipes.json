@@ -6,6 +6,7 @@
   "EasyPackingOpen2Case": "Open Case of 2",
   "EasyPackingOpen4": "Open Box of 4",
   "EasyPackingOpen4Case": "Open Case of 4",
+  "EasyPackingOpen4FullCase": "Open 4 Full Dispensers",
   "EasyPackingOpen6": "Open Box of 6",
   "EasyPackingOpen6Case": "Open Case of 6",
   "EasyPackingOpen8": "Open Box of 8",
@@ -17,8 +18,10 @@
   "EasyPackingPack2Case": "Pack 2 in a Case",
   "EasyPackingPack4": "Pack 4 in a Box",
   "EasyPackingPack4Case": "Pack 4 in a Case",
+  "EasyPackingPack4FullCase": "Pack 4 Full Dispensers",
   "EasyPackingPack6": "Pack 6 in a Box",
   "EasyPackingPack6Case": "Pack 6 in a Case",
   "EasyPackingPack8": "Pack 8 in a Box",
-  "EasyPackingPack8Case": "Pack 8 in a Case"
+  "EasyPackingPack8Case": "Pack 8 in a Case",
+  "EasyPackingTakeFromDispenser4": "Take One Item"
 }
