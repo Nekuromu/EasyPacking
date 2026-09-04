@@ -10,10 +10,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 6.0,
+        Weight = 6.7,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
-        Icon = PakRatTODO,
+        Icon = adhesive-bandage_box,
         WorldStaticModel = AdhesiveBandageCase,
     }
 
@@ -46,7 +46,7 @@ module EasyPacking
         Weight = 3.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = alcohol_wipes_box,
         WorldStaticModel = AlcoholWipesBox,
     }
 
@@ -54,10 +54,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 18.0,
+        Weight = 20.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
-        Icon = PakRatTODO,
+        Icon = alcohol_wipes_case,
         WorldStaticModel = AlcoholWipesCase,
     }
 
@@ -65,10 +65,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 5.0,
+        Weight = 13.3,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen16Case,
+        Icon = antibiotics-case,
         WorldStaticModel = AntibioticsCase,
     }
 
@@ -87,10 +87,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 5.0,
+        Weight = 6.7,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = bandages_case,
         WorldStaticModel = BandageCase,
     }
 
@@ -123,7 +123,7 @@ module EasyPacking
         Weight = 5.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = cotton-balls-case,
         WorldStaticModel = CottonBallsCase,
     }
 
@@ -153,10 +153,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 2.0,
+        Weight = 0.7,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = anti-depressants-box,
         WorldStaticModel = PillsAntiDepBox,
     }
 
@@ -167,7 +167,7 @@ module EasyPacking
         Weight = 10.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = anti-depressants-case,
         WorldStaticModel = PillsAntiDepCase,
     }
 
@@ -178,7 +178,7 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = beta-blockers-box,
         WorldStaticModel = PillsBetaBox,
     }
 
@@ -186,10 +186,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 10.0,
+        Weight = 13.3,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = beta-blockers-case,
         WorldStaticModel = PillsBetaCase,
     }
 
@@ -222,7 +222,7 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = sleeping-pills-box,
         WorldStaticModel = PillsSleepingBox,
     }
 
@@ -233,7 +233,7 @@ module EasyPacking
         Weight = 10.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
-        Icon = PakRatTODO,
+        Icon = sleeping-pills-case,
         WorldStaticModel = PillsSleepingCase,
     }
 
@@ -245,7 +245,7 @@ module EasyPacking
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
         Icon = PakRatTODO,
-        WorldStaticModel = PillsVitaminsBox,
+        WorldStaticModel = PakRatTODO,
     }
 
     item PillsVitaminsCase
@@ -256,7 +256,7 @@ module EasyPacking
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
         Icon = PakRatTODO,
-        WorldStaticModel = PillsVitaminsCase,
+        WorldStaticModel = PakRatTODO,
     }
 
     item RippedSheetsSterilizedCase

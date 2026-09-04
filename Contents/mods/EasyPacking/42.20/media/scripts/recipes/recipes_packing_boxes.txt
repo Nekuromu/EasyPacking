@@ -44,7 +44,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AlcoholBandageBox;EasyPacking.AlcoholWipesBox;EasyPacking.AmplifierBox;EasyPacking.BandageBoxDirty;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.FishlingLineBox;EasyPacking.PillsAntiDepBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.PremiumFishingLineBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholBandageBox;EasyPacking.AlcoholWipesBox;EasyPacking.AmplifierBox;EasyPacking.BandageBoxDirty;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.FishlingLineBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.PremiumFishingLineBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -60,7 +60,6 @@ module EasyPacking
             Base.ElectronicsScrap = EasyPacking.ElectronicsScrapBox,
             Base.FishingLine = EasyPacking.FishlingLineBox,
             Base.Pills = EasyPacking.PillsPainBox,
-            Base.PillsAntiDep = EasyPacking.PillsAntiDepBox,
             Base.PillsBeta = EasyPacking.PillsBetaBox,
             Base.PillsSleepingTablets = EasyPacking.PillsSleepingBox,
             Base.PillsVitamins = EasyPacking.PillsVitaminsBox,
@@ -100,7 +99,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.BeefJerkyPack;EasyPacking.BleachBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.ScalpelBox;EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.ToiletPaperPack] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.BeefJerkyPack;EasyPacking.BleachBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsAntiDepBox;EasyPacking.ScalpelBox;EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.ToiletPaperPack] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -113,6 +112,7 @@ module EasyPacking
             Base.DriedChickpeas = EasyPacking.DriedChickpeasBox,
             Base.DriedSplitPeas = EasyPacking.DriedSplitPeasBox,
             Base.EngineParts = EasyPacking.EnginePartsBox,
+            Base.PillsAntiDep = EasyPacking.PillsAntiDepBox,
             Base.Scalpel = EasyPacking.ScalpelBox,
             Base.Soap2 = EasyPacking.Soap2Box,
             Base.Splint = EasyPacking.SplintBox,
@@ -208,7 +208,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 12 [Base.AlcoholBandage;Base.AlcoholWipes;Base.Amplifier;Base.BandageDirty;Base.ElectricWire;Base.ElectronicsScrap;Base.FishingLine;Base.Pills;Base.PillsAntiDep;Base.PillsBeta;Base.PillsSleepingTablets;Base.PillsVitamins;Base.PremiumFishingLine;Base.RadioReceiver;Base.RadioTransmitter;Base.SutureNeedleHolder;Base.Tweezers] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 12 [Base.AlcoholBandage;Base.AlcoholWipes;Base.Amplifier;Base.BandageDirty;Base.ElectricWire;Base.ElectronicsScrap;Base.FishingLine;Base.Pills;Base.PillsBeta;Base.PillsSleepingTablets;Base.PillsVitamins;Base.PremiumFishingLine;Base.RadioReceiver;Base.RadioTransmitter;Base.SutureNeedleHolder;Base.Tweezers] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -223,7 +223,6 @@ module EasyPacking
             EasyPacking.ElectricalWireBox = Base.ElectricWire,
             EasyPacking.ElectronicsScrapBox = Base.ElectronicsScrap,
             EasyPacking.FishlingLineBox = Base.FishingLine,
-            EasyPacking.PillsAntiDepBox = Base.PillsAntiDep,
             EasyPacking.PillsBetaBox = Base.PillsBeta,
             EasyPacking.PillsPainBox = Base.Pills,
             EasyPacking.PillsSleepingBox = Base.PillsSleepingTablets,
@@ -264,7 +263,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 4 [Base.BeefJerky;Base.Bleach;Base.DriedChickpeas;Base.DriedSplitPeas;Base.EngineParts;Base.Scalpel;Base.Soap2;Base.Splint;Base.ToiletPaper] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [Base.BeefJerky;Base.Bleach;Base.DriedChickpeas;Base.DriedSplitPeas;Base.EngineParts;Base.PillsAntiDep;Base.Scalpel;Base.Soap2;Base.Splint;Base.ToiletPaper] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -277,6 +276,7 @@ module EasyPacking
             EasyPacking.DriedChickpeasBox = Base.DriedChickpeas,
             EasyPacking.DriedSplitPeasBox = Base.DriedSplitPeas,
             EasyPacking.EnginePartsBox = Base.EngineParts,
+            EasyPacking.PillsAntiDepBox = Base.PillsAntiDep,
             EasyPacking.ScalpelBox = Base.Scalpel,
             EasyPacking.Soap2Box = Base.Soap2,
             EasyPacking.SplintBox = Base.Splint,

@@ -9,7 +9,7 @@ module EasyPacking
     model AdhesiveBandageCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/adhesive-bandages-case,
         scale = 0.23,
     }
 
@@ -30,21 +30,21 @@ module EasyPacking
     model AlcoholWipesBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/alcohol-wipes-box,
         scale = 0.15,
     }
 
     model AlcoholWipesCase
     {
         mesh = WorldItems/Parcel2,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.32,
+        texture = WorldItems/alcohol-wipes-case,
+        scale = 0.375,
     }
 
     model AntibioticsCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/antibiotics-case,
         scale = 0.32,
     }
 
@@ -58,7 +58,7 @@ module EasyPacking
     model BandageCase
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/bandages-case,
         scale = 0.32,
     }
 
@@ -79,7 +79,7 @@ module EasyPacking
     model CottonBallsCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/cotton-balls-case,
         scale = 0.32,
     }
 
@@ -107,28 +107,28 @@ module EasyPacking
     model PillsAntiDepBox
     {
         mesh = WorldItems/PillsBottle_Large,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 1.1,
+        texture = WorldItems/anti-depressants-box,
+        scale = 2.5,
     }
 
     model PillsAntiDepCase
     {
-        mesh = WorldItems/Parcel2,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.28,
+        mesh = WorldItems/Parcel3,
+        texture = WorldItems/anti-depressants-case,
+        scale = 0.48,
     }
 
     model PillsBetaBox
     {
         mesh = WorldItems/PillsBottle_Large,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/beta-blockers-box,
         scale = 1.1,
     }
 
     model PillsBetaCase
     {
         mesh = WorldItems/Parcel2,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/beta-blockers-case,
         scale = 0.28,
     }
 
@@ -149,29 +149,15 @@ module EasyPacking
     model PillsSleepingBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/sleeping-pills-box,
         scale = 0.12,
     }
 
     model PillsSleepingCase
     {
-        mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        mesh = WorldItems/Parcel3,
+        texture = WorldItems/sleeping-pills-case,
         scale = 0.23,
-    }
-
-    model PillsVitaminsBox
-    {
-        mesh = WorldItems/PillsBottle_Large,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 1.1,
-    }
-
-    model PillsVitaminsCase
-    {
-        mesh = WorldItems/Parcel2,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.28,
     }
 
     model ScissorsBluntMedicalBox
