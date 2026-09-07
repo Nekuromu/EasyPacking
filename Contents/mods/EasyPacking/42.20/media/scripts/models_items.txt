@@ -15,15 +15,15 @@ module EasyPacking
 
     model AlcoholBandageBox
     {
-        mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/sterile-bandages-box,
         scale = 0.125,
     }
 
     model AlcoholBandageCase
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/sterile-bandages-case,
         scale = 0.32,
     }
 
@@ -31,14 +31,14 @@ module EasyPacking
     {
         mesh = WorldItems/Parcel5,
         texture = WorldItems/alcohol-wipes-box,
-        scale = 0.15,
+        scale = 0.18,
     }
 
     model AlcoholWipesCase
     {
         mesh = WorldItems/Parcel2,
         texture = WorldItems/alcohol-wipes-case,
-        scale = 0.375,
+        scale = 0.4,
     }
 
     model AntibioticsCase
@@ -50,8 +50,8 @@ module EasyPacking
 
     model BandageBoxDirty
     {
-        mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/dirty-bandages-box,
         scale = 0.125,
     }
 
@@ -65,8 +65,106 @@ module EasyPacking
     model BandageCaseDirty
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/dirty-bandages-case,
         scale = 0.32,
+    }
+
+    model BologneseCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedCarrots2Case
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedChiliCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedCornCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedCornedBeefCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedFruitBeverageCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedFruitCocktailCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedMilkCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedMushroomSoupCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedPeachesCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedPeasCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedPineappleCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedPotato2Case
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model CannedTomato2Case
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
     }
 
     model ColdpackCase
@@ -86,15 +184,29 @@ module EasyPacking
     model DisinfectantBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/disinfectant-box,
         scale = 0.28,
     }
 
     model DisinfectantCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.38,
+        texture = WorldItems/disinfectant-case,
+        scale = 0.45,
+    }
+
+    model DogfoodCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model Macandcheese_Case
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.44922,
     }
 
     model PakRatTODO
@@ -134,15 +246,15 @@ module EasyPacking
 
     model PillsPainBox
     {
-        mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.12,
+        mesh = WorldItems/PillsBottle_Large,
+        texture = WorldItems/painkillers-box,
+        scale = 0.84,
     }
 
     model PillsPainCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/painkillers-case,
         scale = 0.23,
     }
 
@@ -223,11 +335,32 @@ module EasyPacking
         scale = 0.32,
     }
 
+    model TinnedBeansCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
+    model TinnedSoupCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
+    }
+
     model TongueDepressorCase
     {
         mesh = WorldItems/Parcel3,
         texture = WorldItems/MedicalParcel_Medium,
         scale = 0.25,
+    }
+
+    model TunaTin_Case
+    {
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/Parcel_Food_05,
+        scale = 0.3,
     }
 
     model TweezersBox
@@ -242,6 +375,13 @@ module EasyPacking
         mesh = WorldItems/Parcel4,
         texture = WorldItems/MedicalParcel_Medium,
         scale = 0.23,
+    }
+
+    model WaterRationCanCase
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/Parcel_Food_04,
+        scale = 0.25,
     }
 
 }

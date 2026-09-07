@@ -18,7 +18,7 @@ module Base
     {
         DisplayCategory = FirstAid,
         DoubleClickRecipe = UnpackBox12,
-        Icon = antibiotics-bottle,
+        Icon = antibiotics-box,
         ItemType = base:normal,
         Medical = true,
         Tags = base:ignorezombiedensity,
@@ -48,9 +48,9 @@ module Base
 
     model EasyPacking_BatteryBox
     {
-        mesh = WorldItems/PackBatteries,
+        mesh = WorldItems/Batteries_box,
         texture = WorldItems/battery-pack,
-        scale = 0.15,
+        scale = 1.0,
     }
 
     item BatteryBox
@@ -62,6 +62,258 @@ module Base
         Tags = base:hasmetal;base:ignorezombiedensity,
         Weight = 1.0,
         WorldStaticModel = EasyPacking_BatteryBox,
+    }
+
+    model EasyPacking_CannedBolognese_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedBolognese,
+        scale = 1.0,
+    }
+
+    item CannedBolognese_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-spaghetti-bolognese_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedBolognese_Box,
+    }
+
+    model EasyPacking_CannedCarrots_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedCarrots,
+        scale = 1.0,
+    }
+
+    item CannedCarrots_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-carrots_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedCarrots_Box,
+    }
+
+    model EasyPacking_CannedChili_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedChilli,
+        scale = 1.0,
+    }
+
+    item CannedChili_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-chili_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedChili_Box,
+    }
+
+    model EasyPacking_CannedCornedBeef_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedCornedBeef,
+        scale = 1.0,
+    }
+
+    item CannedCornedBeef_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-corned-beef_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedCornedBeef_Box,
+    }
+
+    model EasyPacking_CannedCorn_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedCorn,
+        scale = 1.0,
+    }
+
+    item CannedCorn_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-corn_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedCorn_Box,
+    }
+
+    model EasyPacking_CannedFruitBeverage_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/CannedJuice,
+        scale = 1.0,
+    }
+
+    item CannedFruitBeverage_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-fruit-beverage_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedFruitBeverage_Box,
+    }
+
+    model EasyPacking_CannedFruitCocktail_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedFruitCocktail,
+        scale = 1.0,
+    }
+
+    item CannedFruitCocktail_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-fruit-cocktail_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedFruitCocktail_Box,
+    }
+
+    model EasyPacking_CannedMilk_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedCondensedMilk,
+        scale = 1.0,
+    }
+
+    item CannedMilk_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-evaportated_milk_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedMilk_Box,
+    }
+
+    model EasyPacking_CannedMushroomSoup_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedMushroom,
+        scale = 1.0,
+    }
+
+    item CannedMushroomSoup_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-mushroom-soup_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedMushroomSoup_Box,
+    }
+
+    model EasyPacking_CannedPeaches_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedPeaches,
+        scale = 1.0,
+    }
+
+    item CannedPeaches_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-peaches_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedPeaches_Box,
+    }
+
+    model EasyPacking_CannedPeas_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedPeas,
+        scale = 1.0,
+    }
+
+    item CannedPeas_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-peas_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedPeas_Box,
+    }
+
+    model EasyPacking_CannedPineapple_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedPinapple,
+        scale = 1.0,
+    }
+
+    item CannedPineapple_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-pineapple_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedPineapple_Box,
+    }
+
+    model EasyPacking_CannedPotato_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedPotatoes,
+        scale = 1.0,
+    }
+
+    item CannedPotato_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-potato_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedPotato_Box,
+    }
+
+    model EasyPacking_CannedTomato_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedTomatoes,
+        scale = 1.0,
+    }
+
+    item CannedTomato_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-tomato_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_CannedTomato_Box,
     }
 
     model EasyPacking_CottonBallsBox
@@ -84,6 +336,42 @@ module Base
         WorldStaticModel = EasyPacking_CottonBallsBox,
     }
 
+    model EasyPacking_Dogfood_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedDogFood,
+        scale = 1.0,
+    }
+
+    item Dogfood_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-dog-food_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_Dogfood_Box,
+    }
+
+    model EasyPacking_Macandcheese_Box
+    {
+        mesh = WorldItems/Parcel4_Text,
+        texture = WorldItems/mac-and-cheese_box,
+        scale = 0.21,
+    }
+
+    item Macandcheese_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = mac-and-cheese_box,
+        ItemType = base:normal,
+        Tags = base:ignorezombiedensity,
+        Weight = 2.5,
+        WorldStaticModel = EasyPacking_Macandcheese_Box,
+    }
+
     model EasyPacking_PillsAntiDep
     {
         mesh = WorldItems/PillBottle,
@@ -104,6 +392,78 @@ module Base
         UseWhileEquipped = false,
         Weight = 0.2,
         WorldStaticModel = EasyPacking_PillsAntiDep,
+    }
+
+    model EasyPacking_TinnedBeans_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = CanClosed,
+        scale = 1.0,
+    }
+
+    item TinnedBeans_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-beans_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_TinnedBeans_Box,
+    }
+
+    model EasyPacking_TinnedSoup_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/TinnedSoup,
+        scale = 1.0,
+    }
+
+    item TinnedSoup_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-vegetable-soup_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_TinnedSoup_Box,
+    }
+
+    model EasyPacking_TunaTin_Box
+    {
+        mesh = WorldItems/Cans-2_box,
+        texture = WorldItems/TinnedTuna,
+        scale = 1.0,
+    }
+
+    item TunaTin_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = canned-tuna_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 1.5,
+        WorldStaticModel = EasyPacking_TunaTin_Box,
+    }
+
+    model EasyPacking_WaterRationCan_Box
+    {
+        mesh = WorldItems/Cans_box,
+        texture = WorldItems/Tinned_WaterRation,
+        scale = 1.0,
+    }
+
+    item WaterRationCan_Box
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfCannedFood,
+        Icon = water-ration-cans_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 4.0,
+        WorldStaticModel = EasyPacking_WaterRationCan_Box,
     }
 
 }

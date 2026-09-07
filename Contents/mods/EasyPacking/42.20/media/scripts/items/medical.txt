@@ -24,7 +24,7 @@ module EasyPacking
         Weight = 1.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = GenericMedicalParcel2,
+        Icon = sterile-bandages_box,
         WorldStaticModel = AlcoholBandageBox,
     }
 
@@ -35,7 +35,7 @@ module EasyPacking
         Weight = 5.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = sterile-bandages_case,
         WorldStaticModel = AlcoholBandageCase,
     }
 
@@ -79,7 +79,7 @@ module EasyPacking
         Weight = 1.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = GenericMedicalParcel2,
+        Icon = dirty-bandages_box,
         WorldStaticModel = BandageBoxDirty,
     }
 
@@ -101,7 +101,7 @@ module EasyPacking
         Weight = 5.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = dirty-bandages_case,
         WorldStaticModel = BandageCaseDirty,
     }
 
@@ -131,10 +131,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 3.0,
+        Weight = 1.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
+        Icon = disinfectant-box,
         WorldStaticModel = DisinfectantBox,
     }
 
@@ -142,10 +142,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 10.0,
+        Weight = 3.3,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
+        Icon = disinfectant-case,
         WorldStaticModel = DisinfectantCase,
     }
 
@@ -164,7 +164,7 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 10.0,
+        Weight = 3.5,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
         Icon = anti-depressants-case,
@@ -200,7 +200,7 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = painkillers-box,
         WorldStaticModel = PillsPainBox,
     }
 
@@ -208,10 +208,10 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 10.0,
+        Weight = 13.3,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
-        Icon = PakRatTODO,
+        Icon = painkillers-case,
         WorldStaticModel = PillsPainCase,
     }
 
@@ -230,7 +230,7 @@ module EasyPacking
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
-        Weight = 10.0,
+        Weight = 13.3,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
         Icon = sleeping-pills-case,

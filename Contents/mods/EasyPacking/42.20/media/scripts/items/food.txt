@@ -48,6 +48,146 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item BologneseCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = BologneseCase,
+    }
+
+    item CannedCarrots2Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedCarrots2Case,
+    }
+
+    item CannedChiliCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedChiliCase,
+    }
+
+    item CannedCornCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedCornCase,
+    }
+
+    item CannedCornedBeefCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedCornedBeefCase,
+    }
+
+    item CannedFruitBeverageCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedFruitBeverageCase,
+    }
+
+    item CannedFruitCocktailCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedFruitCocktailCase,
+    }
+
+    item CannedMilkCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedMilkCase,
+    }
+
+    item CannedMushroomSoupCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedMushroomSoupCase,
+    }
+
+    item CannedPeachesCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedPeachesCase,
+    }
+
+    item CannedPeasCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedPeasCase,
+    }
+
+    item CannedPineappleCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedPineappleCase,
+    }
+
+    item CannedPotato2Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedPotato2Case,
+    }
+
+    item CannedTomato2Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = CannedTomato2Case,
+    }
+
     item DehydratedMeatStickBox
     {
         DisplayCategory = Misc,
@@ -66,6 +206,16 @@ module EasyPacking
         DoubleClickRecipe = EasyPackingOpen8Case,
         Icon = PakRatTODO,
         WorldStaticModel = PakRatTODO,
+    }
+
+    item DogfoodCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = DogfoodCase,
     }
 
     item DriedChickpeasBox
@@ -108,6 +258,16 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item Macandcheese_Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 12.5,
+        DoubleClickRecipe = EasyPackingOpen6Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Macandcheese_Case,
+    }
+
     item PorkRindsCase
     {
         DisplayCategory = Misc,
@@ -148,6 +308,46 @@ module EasyPacking
         DoubleClickRecipe = EasyPackingOpen8Case,
         Icon = PakRatTODO,
         WorldStaticModel = PakRatTODO,
+    }
+
+    item TinnedBeansCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = TinnedBeansCase,
+    }
+
+    item TinnedSoupCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = TinnedSoupCase,
+    }
+
+    item TunaTin_Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = TunaTin_Case,
+    }
+
+    item WaterRationCanCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 13.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = WaterRationCanCase,
     }
 
 }
