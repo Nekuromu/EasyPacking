@@ -1,0 +1,106 @@
+name: Translation
+description: Report a translation issue or offer translations for EasyPacking
+title: "[TRANSLATION] "
+labels: [translation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing translations! Please read this before filing.
+
+        **Format changed in Build 42.** Since 42.15 the game loads translation files as flat JSON and **no longer uses a language suffix in the filename**:
+
+        - **Build 42 (current, this branch):** translations live inside the versioned folder, `<mod>/42.20/media/lua/shared/Translate/<LANG>/ItemName.json`
+          (version folders are named after the game build, e.g. `42.20`), e.g.
+          ```json
+          {
+              "EasyPacking.BandageCase": "Case of Bandages"
+          }
+          ```
+        - **Build 41 (legacy `main`):** `<mod>/media/lua/shared/Translate/<LANG>/ItemName_EN.txt`, a Lua table, e.g.
+          ```
+          ItemName_Packing.5pkWire = "5x Wire",
+          ```
+        - In Build 42 JSON, keys are the **full item type** or recipe ID (e.g. `EasyPacking.BandageCase`
+          in `ItemName.json`, `EasyPackingPack10` in `Recipes.json`). The old `ItemName_` / `Recipe_`
+          file prefixes and Lua table wrappers are gone. Always **copy the exact key** from the file;
+          do not retype it.
+
+        Requirements (Build 42): files must be **UTF-8 (no BOM)**, and literal `%` characters must be
+        escaped as `%%`. A `language.json` (new in 42.20.0) defines a new language.
+
+        The mod currently ships these languages: **EN, ES, FR, IT, CH, KO, PTBR, RU, TR**.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language (folder code)
+      description: Which language folder does this concern?
+      options:
+        - EN
+        - ES
+        - FR
+        - IT
+        - CH
+        - KO
+        - PTBR
+        - RU
+        - TR
+        - Other / new language
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: issue-type
+    attributes:
+      label: Issue type
+      options:
+        - label: Incorrect translation (wrong or awkward wording)
+        - label: Missing translation (shows `????` or the raw key in-game)
+        - label: File still in old B41 Lua format / needs JSON conversion
+        - label: Offering a new translation or updating an existing language
+    validations:
+      required: true
+
+  - type: input
+    id: string-key
+    attributes:
+      label: String key (exact)
+      description: Copy the key exactly as it appears in the file (or `N/A` if you are offering a new language).
+      placeholder: "e.g. EasyPacking.BandageCase"
+
+  - type: input
+    id: file-path
+    attributes:
+      label: File path (exact)
+      description: Path of the file containing the key, relative to `Contents/mods/`.
+      placeholder: "e.g. EasyPacking/42.20/media/lua/shared/Translate/FR/ItemName.json"
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text (if any)
+      description: What the translation currently says in-game.
+
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested / correct text (or new translations)
+      description: |
+        Provide translations in the **Build 42 JSON** format (one key→value pair per line), e.g.
+        ```json
+        {
+            "EasyPacking.BandageCase": "Boîte de bandages"
+        }
+        ```
+        If you are working on the legacy B41 branch (`main`), Lua lines like
+        `ItemName_GidOrganized.OS12pkAdhesiveBandages = "Caja de curitas 12x",` are also accepted.
+        For bulk updates you can paste the full block of keys and translations.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots of the in-game text, notes on regional wording, which build you checked on, etc.

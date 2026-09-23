@@ -1,0 +1,133 @@
+name: Bug Report
+description: Report a bug or issue with EasyPacking
+title: "[BUG] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. A complete report makes it much easier to reproduce and fix — please fill in everything you can.
+
+        **Heads-up on builds:** EasyPacking is currently migrating from Build 41 (the old B41-era codebase and the two addons) to Build 42, which is the current stable. Bugs on Build 42 are the priority; B41 bugs are only looked at for the legacy branches. Let us know exactly which build you are on below.
+
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Which mod/addon is affected?
+      description: This repo ships the vanilla mod plus two Build 41-era addons. The addons depend on their upstream mods (Firearms B41 / GunFighter2) and on Build 41.
+      options:
+        - EasyPacking (Vanilla)
+        - EasyPacking + Firearms B41 addon
+        - EasyPacking + GunFighter2 addon
+        - Both addons
+        - Not sure / other
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: Version from `mod.info` — `v2.1.0-dev` on this B42 branch (`42.20/mod.info`), `Easy Packing For Vanilla v1.1.0` on legacy `main`. If you tested the B42 branch, include the version folder (`42.20/`).
+      placeholder: "e.g. v2.1.0-dev"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game-build
+    attributes:
+      label: Game build
+      description: Build 42 is the current stable default (42.20.x). Build 41 is legacy and only selectable via the Steam beta branch.
+      options:
+        - Build 42 stable (42.20.x)
+        - Build 42 unstable / beta (42.x)
+        - Build 41 (legacy, 41.78.x beta branch)
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: host
+    attributes:
+      label: Where did it happen?
+      description: Singleplayer and dedicated servers can behave differently.
+      options:
+        - Singleplayer
+        - Dedicated server
+        - Both / not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: isolation
+    attributes:
+      label: Does it reproduce with EasyPacking alone?
+      description: If you can, empty your mod list down to EasyPacking (plus the affected addon) and test again.
+      options:
+        - Yes, even with only EasyPacking loaded
+        - Only with other mods loaded
+        - Haven't tested yet
+    validations:
+      required: true
+
+  - type: input
+    id: affected-item
+    attributes:
+      label: Affected item / recipe
+      description: Example — `6x Canned Beans`, `9x Bandages`, `10x .223 Ammo Can`.
+      placeholder: "e.g. 9x Bandages"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps. Include the packing recipe you used if relevant.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened instead?
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag & drop images here if applicable.
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Console log
+        The single most useful file for diagnosing Project Zomboid bugs is the game's `console.txt`.
+        On Windows it is at `%USERPROFILE%\Zomboid\console.txt`. Please attach it if the bug produces errors or is at all hard to reproduce.
+
+  - type: checkboxes
+    id: logs
+    attributes:
+      label: Logs & reproduction
+      options:
+        - label: I have attached my `console.txt` (strongly recommended)
+        - label: The issue is not log-related / no errors appear in the console
+        - label: Reproduced in a fresh save with only EasyPacking + the affected addon loaded
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Full mod list, server settings, save notes, etc.
