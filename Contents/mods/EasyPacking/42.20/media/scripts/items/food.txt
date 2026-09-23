@@ -400,4 +400,24 @@ module EasyPacking
         WorldStaticModel = WaterRationCanCase,
     }
 
+    item YogurtBox
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.5,
+        DoubleClickRecipe = EasyPackingOpen6,
+        Icon = yogurt_box,
+        WorldStaticModel = YogurtBox,
+    }
+
+    item YogurtCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 2.5,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = yogurt_case,
+        WorldStaticModel = YogurtCase,
+    }
+
 }

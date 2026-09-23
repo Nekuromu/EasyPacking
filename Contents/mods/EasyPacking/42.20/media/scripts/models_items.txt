@@ -468,4 +468,18 @@ module EasyPacking
         scale = 0.36,
     }
 
+    model YogurtBox
+    {
+        mesh = WorldItems/Yogurt_box,
+        texture = WorldItems/Yogurt,
+        scale = 0.665,
+    }
+
+    model YogurtCase
+    {
+        mesh = WorldItems/Parcel_Present_4,
+        texture = WorldItems/yogurt_case,
+        scale = 0.26,
+    }
+
 }

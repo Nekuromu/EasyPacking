@@ -55,7 +55,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.BlackPenCase;EasyPacking.BluePenCase;EasyPacking.CleaningLiquid2Case;EasyPacking.CripsCase;EasyPacking.GreenPenCase;EasyPacking.PencilCase;EasyPacking.PencilSpiffoCase;EasyPacking.PenFancyCase;EasyPacking.PenMultiColorCase;EasyPacking.PenSpiffoCase;EasyPacking.RedPenCase;EasyPacking.RippedSheetsCase;EasyPacking.RippedSheetsDirtyBundle;EasyPacking.RippedSheetsSterilizedCase;EasyPacking.ScalpelCase;EasyPacking.StethoscopeCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.BlackPenCase;EasyPacking.BluePenCase;EasyPacking.CleaningLiquid2Case;EasyPacking.CripsCase;EasyPacking.GreenPenCase;EasyPacking.PencilCase;EasyPacking.PencilSpiffoCase;EasyPacking.PenFancyCase;EasyPacking.PenMultiColorCase;EasyPacking.PenSpiffoCase;EasyPacking.RedPenCase;EasyPacking.RippedSheetsCase;EasyPacking.RippedSheetsDirtyBundle;EasyPacking.RippedSheetsSterilizedCase;EasyPacking.ScalpelCase;EasyPacking.StethoscopeCase;EasyPacking.YogurtCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -79,6 +79,7 @@ module EasyPacking
             EasyPacking.RedPenBox = EasyPacking.RedPenCase,
             EasyPacking.ScalpelBox = EasyPacking.ScalpelCase,
             EasyPacking.StethoscopeBox = EasyPacking.StethoscopeCase,
+            EasyPacking.YogurtBox = EasyPacking.YogurtCase,
         }
     }
 
@@ -299,7 +300,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 2 [Base.RippedSheetsBundle;Base.RippedSheetsDirtyBundle;Base.RippedSheetsSterilizedBundle;EasyPacking.BlackPenBox;EasyPacking.BluePenBox;EasyPacking.CleaningLiquid2Box;EasyPacking.CripsBox;EasyPacking.GreenPenBox;EasyPacking.PencilBox;EasyPacking.PencilSpiffoBox;EasyPacking.PenFancyBox;EasyPacking.PenMultiColorBox;EasyPacking.PenSpiffoBox;EasyPacking.RedPenBox;EasyPacking.ScalpelBox;EasyPacking.StethoscopeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 2 [Base.RippedSheetsBundle;Base.RippedSheetsDirtyBundle;Base.RippedSheetsSterilizedBundle;EasyPacking.BlackPenBox;EasyPacking.BluePenBox;EasyPacking.CleaningLiquid2Box;EasyPacking.CripsBox;EasyPacking.GreenPenBox;EasyPacking.PencilBox;EasyPacking.PencilSpiffoBox;EasyPacking.PenFancyBox;EasyPacking.PenMultiColorBox;EasyPacking.PenSpiffoBox;EasyPacking.RedPenBox;EasyPacking.ScalpelBox;EasyPacking.StethoscopeBox;EasyPacking.YogurtBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -323,6 +324,7 @@ module EasyPacking
             EasyPacking.RippedSheetsSterilizedCase = Base.RippedSheetsSterilizedBundle,
             EasyPacking.ScalpelCase = EasyPacking.ScalpelBox,
             EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
+            EasyPacking.YogurtCase = EasyPacking.YogurtBox,
         }
     }
 
