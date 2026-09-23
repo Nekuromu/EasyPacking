@@ -48,6 +48,26 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item BeerCanCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 6.0,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item BeerCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 6.0,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item BologneseCase
     {
         DisplayCategory = Misc,
@@ -288,6 +308,16 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
         UseDelta = 0.25,
         UseWhileEquipped = false,
+    }
+
+    item Sardines_Case
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = Sardines_Case,
     }
 
     item Teabag2Box

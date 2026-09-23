@@ -112,7 +112,7 @@ module EasyPacking
         Weight = 10.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen8Case,
-        Icon = PakRatTODO,
+        Icon = coldpacks_case,
         WorldStaticModel = ColdpackCase,
     }
 
@@ -244,8 +244,8 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = caffeine-pills_box,
+        WorldStaticModel = PillsVitaminsBox,
     }
 
     item PillsVitaminsCase
@@ -254,9 +254,9 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 10.0,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = caffeine-pills_case,
+        WorldStaticModel = PillsVitaminsCase,
     }
 
     item RippedSheetsSterilizedCase
@@ -273,20 +273,20 @@ module EasyPacking
     {
         DisplayCategory = Misc,
         ItemType = base:normal,
-        Weight = 1.0,
-        DoubleClickRecipe = EasyPackingOpen4,
+        Weight = 1.5,
+        DoubleClickRecipe = EasyPackingOpen6,
         Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        WorldStaticModel = ScalpelBox,
     }
 
     item ScalpelCase
     {
         DisplayCategory = Misc,
         ItemType = base:normal,
-        Weight = 1.7,
+        Weight = 2.5,
         DoubleClickRecipe = EasyPackingOpen2Case,
         Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        WorldStaticModel = ScalpelCase,
     }
 
     item ScissorsBluntMedicalBox
@@ -296,7 +296,7 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen10,
-        Icon = PakRatTODO,
+        Icon = medical-shears_box,
         WorldStaticModel = ScissorsBluntMedicalBox,
     }
 
@@ -307,7 +307,7 @@ module EasyPacking
         Weight = 9.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
+        Icon = medical-shears_case,
         WorldStaticModel = ScissorsBluntMedicalCase,
     }
 
@@ -340,7 +340,7 @@ module EasyPacking
         Weight = 2.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen10,
-        Icon = PakRatTODO,
+        Icon = stethoscopes-box,
         WorldStaticModel = StethoscopeBox,
     }
 
@@ -350,8 +350,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 6.0,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = stethoscopes-case,
         WorldStaticModel = StethoscopeCase,
     }
 
@@ -362,7 +362,7 @@ module EasyPacking
         Weight = 5.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = suture-needles_case,
         WorldStaticModel = SutureNeedleCase,
     }
 
@@ -388,14 +388,24 @@ module EasyPacking
         WorldStaticModel = SutureNeedleHolderCase,
     }
 
+    item TissueCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen6FullCase,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item TongueDepressorCase
     {
         DisplayCategory = FirstAid,
         ItemType = base:normal,
         Weight = 5.0,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen6Case,
+        Icon = tongue-depressors_case,
         WorldStaticModel = TongueDepressorCase,
     }
 
@@ -406,7 +416,7 @@ module EasyPacking
         Weight = 1.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = tweezers_box,
         WorldStaticModel = TweezersBox,
     }
 
@@ -417,7 +427,7 @@ module EasyPacking
         Weight = 5.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        Icon = tweezers_case,
         WorldStaticModel = TweezersCase,
     }
 

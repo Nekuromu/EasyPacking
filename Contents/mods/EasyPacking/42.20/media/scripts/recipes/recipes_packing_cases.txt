@@ -55,7 +55,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.BlackPenCase;EasyPacking.BluePenCase;EasyPacking.CleaningLiquid2Case;EasyPacking.GreenPenCase;EasyPacking.PencilCase;EasyPacking.PencilSpiffoCase;EasyPacking.PenFancyCase;EasyPacking.PenMultiColorCase;EasyPacking.PenSpiffoCase;EasyPacking.RedPenCase;EasyPacking.RippedSheetsCase;EasyPacking.RippedSheetsDirtyBundle;EasyPacking.RippedSheetsSterilizedCase;EasyPacking.ScalpelCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.BlackPenCase;EasyPacking.BluePenCase;EasyPacking.CleaningLiquid2Case;EasyPacking.GreenPenCase;EasyPacking.PencilCase;EasyPacking.PencilSpiffoCase;EasyPacking.PenFancyCase;EasyPacking.PenMultiColorCase;EasyPacking.PenSpiffoCase;EasyPacking.RedPenCase;EasyPacking.RippedSheetsCase;EasyPacking.RippedSheetsDirtyBundle;EasyPacking.RippedSheetsSterilizedCase;EasyPacking.ScalpelCase;EasyPacking.StethoscopeCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -77,6 +77,7 @@ module EasyPacking
             EasyPacking.PenSpiffoBox = EasyPacking.PenSpiffoCase,
             EasyPacking.RedPenBox = EasyPacking.RedPenCase,
             EasyPacking.ScalpelBox = EasyPacking.ScalpelCase,
+            EasyPacking.StethoscopeBox = EasyPacking.StethoscopeCase,
         }
     }
 
@@ -88,7 +89,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AmplifierCase;EasyPacking.BatteryCase;EasyPacking.BleachCase;EasyPacking.BologneseCase;EasyPacking.CannedCarrots2Case;EasyPacking.CannedChiliCase;EasyPacking.CannedCornCase;EasyPacking.CannedCornedBeefCase;EasyPacking.CannedFruitBeverageCase;EasyPacking.CannedFruitCocktailCase;EasyPacking.CannedMilkCase;EasyPacking.CannedMushroomSoupCase;EasyPacking.CannedPeachesCase;EasyPacking.CannedPeasCase;EasyPacking.CannedPineappleCase;EasyPacking.CannedPotato2Case;EasyPacking.CannedTomato2Case;EasyPacking.DisinfectantCase;EasyPacking.DogfoodCase;EasyPacking.ElectricalWireCase;EasyPacking.ElectronicsScrapCase;EasyPacking.FishlingLineCase;EasyPacking.LightBulbBlueCase;EasyPacking.LightBulbCase;EasyPacking.LightBulbCyanCase;EasyPacking.LightBulbGreenCase;EasyPacking.LightBulbMagentaCase;EasyPacking.LightBulbOrangeCase;EasyPacking.LightBulbPinkCase;EasyPacking.LightBulbPurpleCase;EasyPacking.LightBulbRedCase;EasyPacking.LightBulbYellowCase;EasyPacking.PremiumFishingLineCase;EasyPacking.RadioReceiverCase;EasyPacking.RadioTransmitterCase;EasyPacking.ScissorsBluntMedicalCase;EasyPacking.Soap2Case;EasyPacking.SplintCase;EasyPacking.StethoscopeCase;EasyPacking.TinnedBeansCase;EasyPacking.TinnedSoupCase;EasyPacking.TongueDepressorCase;EasyPacking.TunaTin_Case;EasyPacking.WaterRationCanCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveTapeCase;EasyPacking.AmplifierCase;EasyPacking.BeerCanCase;EasyPacking.BeerCase;EasyPacking.BleachCase;EasyPacking.BologneseCase;EasyPacking.CannedCarrots2Case;EasyPacking.CannedChiliCase;EasyPacking.CannedCornCase;EasyPacking.CannedCornedBeefCase;EasyPacking.CannedFruitBeverageCase;EasyPacking.CannedFruitCocktailCase;EasyPacking.CannedMilkCase;EasyPacking.CannedMushroomSoupCase;EasyPacking.CannedPeachesCase;EasyPacking.CannedPeasCase;EasyPacking.CannedPineappleCase;EasyPacking.CannedPotato2Case;EasyPacking.CannedTomato2Case;EasyPacking.DisinfectantCase;EasyPacking.DogfoodCase;EasyPacking.ElectricalWireCase;EasyPacking.ElectronicsScrapCase;EasyPacking.FishlingLineCase;EasyPacking.LightBulbBlueCase;EasyPacking.LightBulbCase;EasyPacking.LightBulbCyanCase;EasyPacking.LightBulbGreenCase;EasyPacking.LightBulbMagentaCase;EasyPacking.LightBulbOrangeCase;EasyPacking.LightBulbPinkCase;EasyPacking.LightBulbPurpleCase;EasyPacking.LightBulbRedCase;EasyPacking.LightBulbYellowCase;EasyPacking.PremiumFishingLineCase;EasyPacking.RadioReceiverCase;EasyPacking.RadioTransmitterCase;EasyPacking.Sardines_Case;EasyPacking.ScissorsBluntMedicalCase;EasyPacking.Soap2Case;EasyPacking.SplintCase;EasyPacking.TinnedBeansCase;EasyPacking.TinnedSoupCase;EasyPacking.TunaTin_Case;EasyPacking.WaterRationCanCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -96,7 +97,9 @@ module EasyPacking
         }
         itemMapper boxType
         {
-            Base.BatteryBox = EasyPacking.BatteryCase,
+            Base.AdhesiveTapeBox = EasyPacking.AdhesiveTapeCase,
+            Base.BeerCanPack = EasyPacking.BeerCanCase,
+            Base.BeerPack = EasyPacking.BeerCase,
             Base.CannedBolognese_Box = EasyPacking.BologneseCase,
             Base.CannedCarrots_Box = EasyPacking.CannedCarrots2Case,
             Base.CannedChili_Box = EasyPacking.CannedChiliCase,
@@ -110,12 +113,12 @@ module EasyPacking
             Base.CannedPeas_Box = EasyPacking.CannedPeasCase,
             Base.CannedPineapple_Box = EasyPacking.CannedPineappleCase,
             Base.CannedPotato_Box = EasyPacking.CannedPotato2Case,
+            Base.CannedSardines_Box = EasyPacking.Sardines_Case,
             Base.CannedTomato_Box = EasyPacking.CannedTomato2Case,
             Base.Dogfood_Box = EasyPacking.DogfoodCase,
             Base.LightBulbBox = EasyPacking.LightBulbCase,
             Base.TinnedBeans_Box = EasyPacking.TinnedBeansCase,
             Base.TinnedSoup_Box = EasyPacking.TinnedSoupCase,
-            Base.TongueDepressorBox = EasyPacking.TongueDepressorCase,
             Base.TunaTin_Box = EasyPacking.TunaTin_Case,
             Base.WaterRationCan_Box = EasyPacking.WaterRationCanCase,
             EasyPacking.AmplifierBox = EasyPacking.AmplifierCase,
@@ -139,7 +142,6 @@ module EasyPacking
             EasyPacking.ScissorsBluntMedicalBox = EasyPacking.ScissorsBluntMedicalCase,
             EasyPacking.Soap2Box = EasyPacking.Soap2Case,
             EasyPacking.SplintBox = EasyPacking.SplintCase,
-            EasyPacking.StethoscopeBox = EasyPacking.StethoscopeCase,
         }
     }
 
@@ -172,7 +174,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AlcoholBandageCase;EasyPacking.BandageCaseDirty;EasyPacking.CottonBallsCase;EasyPacking.Macandcheese_Case;EasyPacking.PillsAntiDepCase;EasyPacking.PillsVitaminsCase;EasyPacking.SutureNeedleCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.TweezersCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholBandageCase;EasyPacking.BandageCaseDirty;EasyPacking.CottonBallsCase;EasyPacking.Macandcheese_Case;EasyPacking.PaperclipCase;EasyPacking.PillsAntiDepCase;EasyPacking.SutureNeedleCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.TongueDepressorCase;EasyPacking.TweezersCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -182,13 +184,34 @@ module EasyPacking
         {
             Base.CottonBallsBox = EasyPacking.CottonBallsCase,
             Base.Macandcheese_Box = EasyPacking.Macandcheese_Case,
+            Base.PaperclipBox = EasyPacking.PaperclipCase,
             Base.SutureNeedleBox = EasyPacking.SutureNeedleCase,
+            Base.TongueDepressorBox = EasyPacking.TongueDepressorCase,
             EasyPacking.AlcoholBandageBox = EasyPacking.AlcoholBandageCase,
             EasyPacking.BandageBoxDirty = EasyPacking.BandageCaseDirty,
             EasyPacking.PillsAntiDepBox = EasyPacking.PillsAntiDepCase,
-            EasyPacking.PillsVitaminsBox = EasyPacking.PillsVitaminsCase,
             EasyPacking.SutureNeedleHolderBox = EasyPacking.SutureNeedleHolderCase,
             EasyPacking.TweezersBox = EasyPacking.TweezersCase,
+        }
+    }
+
+    craftRecipe EasyPackingOpen6FullCase
+    {
+        timedAction = UnPackBox,
+        time = 50,
+        Tags = InHandCraft;Packing;CanBeDoneInDark,
+        category = Packing,
+        inputs
+        {
+            item 1 [EasyPacking.TissueCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 6 mapper:boxType,
+        }
+        itemMapper boxType
+        {
+            Base.TissueBox = EasyPacking.TissueCase,
         }
     }
 
@@ -200,7 +223,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.BandageCase;EasyPacking.ColdpackCase;EasyPacking.DehydratedMeatStickCase;EasyPacking.DriedChickpeasCase;EasyPacking.DriedSplitPeasCase;EasyPacking.EnginePartsCase;EasyPacking.PillsBetaCase;EasyPacking.PillsPainCase;EasyPacking.PillsSleepingCase;EasyPacking.Teabag2Case] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.BandageCase;EasyPacking.BatteryCase;EasyPacking.ColdpackCase;EasyPacking.DehydratedMeatStickCase;EasyPacking.DriedChickpeasCase;EasyPacking.DriedSplitPeasCase;EasyPacking.EnginePartsCase;EasyPacking.PillsBetaCase;EasyPacking.PillsPainCase;EasyPacking.PillsSleepingCase;EasyPacking.PillsVitaminsCase;EasyPacking.Teabag2Case] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -210,6 +233,7 @@ module EasyPacking
         {
             Base.AdhesiveBandageBox = EasyPacking.AdhesiveBandageCase,
             Base.BandageBox = EasyPacking.BandageCase,
+            Base.BatteryBox = EasyPacking.BatteryCase,
             Base.ColdpackBox = EasyPacking.ColdpackCase,
             EasyPacking.AlcoholWipesBox = EasyPacking.AlcoholWipesCase,
             EasyPacking.DehydratedMeatStickBox = EasyPacking.DehydratedMeatStickCase,
@@ -219,6 +243,7 @@ module EasyPacking
             EasyPacking.PillsBetaBox = EasyPacking.PillsBetaCase,
             EasyPacking.PillsPainBox = EasyPacking.PillsPainCase,
             EasyPacking.PillsSleepingBox = EasyPacking.PillsSleepingCase,
+            EasyPacking.PillsVitaminsBox = EasyPacking.PillsVitaminsCase,
             EasyPacking.Teabag2Box = EasyPacking.Teabag2Case,
         }
     }
@@ -272,7 +297,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 2 [Base.RippedSheetsBundle;Base.RippedSheetsDirtyBundle;Base.RippedSheetsSterilizedBundle;EasyPacking.BlackPenBox;EasyPacking.BluePenBox;EasyPacking.CleaningLiquid2Box;EasyPacking.GreenPenBox;EasyPacking.PencilBox;EasyPacking.PencilSpiffoBox;EasyPacking.PenFancyBox;EasyPacking.PenMultiColorBox;EasyPacking.PenSpiffoBox;EasyPacking.RedPenBox;EasyPacking.ScalpelBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 2 [Base.RippedSheetsBundle;Base.RippedSheetsDirtyBundle;Base.RippedSheetsSterilizedBundle;EasyPacking.BlackPenBox;EasyPacking.BluePenBox;EasyPacking.CleaningLiquid2Box;EasyPacking.GreenPenBox;EasyPacking.PencilBox;EasyPacking.PencilSpiffoBox;EasyPacking.PenFancyBox;EasyPacking.PenMultiColorBox;EasyPacking.PenSpiffoBox;EasyPacking.RedPenBox;EasyPacking.ScalpelBox;EasyPacking.StethoscopeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -294,6 +319,7 @@ module EasyPacking
             EasyPacking.RippedSheetsDirtyBundle = Base.RippedSheetsDirtyBundle,
             EasyPacking.RippedSheetsSterilizedCase = Base.RippedSheetsSterilizedBundle,
             EasyPacking.ScalpelCase = EasyPacking.ScalpelBox,
+            EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
         }
     }
 
@@ -305,7 +331,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 4 [Base.BatteryBox;Base.CannedBolognese_Box;Base.CannedCarrots_Box;Base.CannedChili_Box;Base.CannedCornedBeef_Box;Base.CannedCorn_Box;Base.CannedFruitBeverage_Box;Base.CannedFruitCocktail_Box;Base.CannedMilk_Box;Base.CannedMushroomSoup_Box;Base.CannedPeaches_Box;Base.CannedPeas_Box;Base.CannedPineapple_Box;Base.CannedPotato_Box;Base.CannedTomato_Box;Base.Dogfood_Box;Base.LightBulbBox;Base.TinnedBeans_Box;Base.TinnedSoup_Box;Base.TongueDepressorBox;Base.TunaTin_Box;Base.WaterRationCan_Box;EasyPacking.AmplifierBox;EasyPacking.BleachBox;EasyPacking.DisinfectantBox;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.FishlingLineBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox;EasyPacking.PremiumFishingLineBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.ScissorsBluntMedicalBox;EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.StethoscopeBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [Base.AdhesiveTapeBox;Base.BeerCanPack;Base.BeerPack;Base.CannedBolognese_Box;Base.CannedCarrots_Box;Base.CannedChili_Box;Base.CannedCornedBeef_Box;Base.CannedCorn_Box;Base.CannedFruitBeverage_Box;Base.CannedFruitCocktail_Box;Base.CannedMilk_Box;Base.CannedMushroomSoup_Box;Base.CannedPeaches_Box;Base.CannedPeas_Box;Base.CannedPineapple_Box;Base.CannedPotato_Box;Base.CannedSardines_Box;Base.CannedTomato_Box;Base.Dogfood_Box;Base.LightBulbBox;Base.TinnedBeans_Box;Base.TinnedSoup_Box;Base.TunaTin_Box;Base.WaterRationCan_Box;EasyPacking.AmplifierBox;EasyPacking.BleachBox;EasyPacking.DisinfectantBox;EasyPacking.ElectricalWireBox;EasyPacking.ElectronicsScrapBox;EasyPacking.FishlingLineBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox;EasyPacking.PremiumFishingLineBox;EasyPacking.RadioReceiverBox;EasyPacking.RadioTransmitterBox;EasyPacking.ScissorsBluntMedicalBox;EasyPacking.Soap2Box;EasyPacking.SplintBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -313,8 +339,10 @@ module EasyPacking
         }
         itemMapper itemType
         {
+            EasyPacking.AdhesiveTapeCase = Base.AdhesiveTapeBox,
             EasyPacking.AmplifierCase = EasyPacking.AmplifierBox,
-            EasyPacking.BatteryCase = Base.BatteryBox,
+            EasyPacking.BeerCanCase = Base.BeerCanPack,
+            EasyPacking.BeerCase = Base.BeerPack,
             EasyPacking.BleachCase = EasyPacking.BleachBox,
             EasyPacking.BologneseCase = Base.CannedBolognese_Box,
             EasyPacking.CannedCarrots2Case = Base.CannedCarrots_Box,
@@ -348,13 +376,12 @@ module EasyPacking
             EasyPacking.PremiumFishingLineCase = EasyPacking.PremiumFishingLineBox,
             EasyPacking.RadioReceiverCase = EasyPacking.RadioReceiverBox,
             EasyPacking.RadioTransmitterCase = EasyPacking.RadioTransmitterBox,
+            EasyPacking.Sardines_Case = Base.CannedSardines_Box,
             EasyPacking.ScissorsBluntMedicalCase = EasyPacking.ScissorsBluntMedicalBox,
             EasyPacking.Soap2Case = EasyPacking.Soap2Box,
             EasyPacking.SplintCase = EasyPacking.SplintBox,
-            EasyPacking.StethoscopeCase = EasyPacking.StethoscopeBox,
             EasyPacking.TinnedBeansCase = Base.TinnedBeans_Box,
             EasyPacking.TinnedSoupCase = Base.TinnedSoup_Box,
-            EasyPacking.TongueDepressorCase = Base.TongueDepressorBox,
             EasyPacking.TunaTin_Case = Base.TunaTin_Box,
             EasyPacking.WaterRationCanCase = Base.WaterRationCan_Box,
         }
@@ -389,7 +416,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 6 [Base.CottonBallsBox;Base.Macandcheese_Box;Base.SutureNeedleBox;EasyPacking.AlcoholBandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsAntiDepBox;EasyPacking.PillsVitaminsBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.CottonBallsBox;Base.Macandcheese_Box;Base.PaperclipBox;Base.SutureNeedleBox;Base.TongueDepressorBox;EasyPacking.AlcoholBandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsAntiDepBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -401,11 +428,32 @@ module EasyPacking
             EasyPacking.BandageCaseDirty = EasyPacking.BandageBoxDirty,
             EasyPacking.CottonBallsCase = Base.CottonBallsBox,
             EasyPacking.Macandcheese_Case = Base.Macandcheese_Box,
+            EasyPacking.PaperclipCase = Base.PaperclipBox,
             EasyPacking.PillsAntiDepCase = EasyPacking.PillsAntiDepBox,
-            EasyPacking.PillsVitaminsCase = EasyPacking.PillsVitaminsBox,
             EasyPacking.SutureNeedleCase = Base.SutureNeedleBox,
             EasyPacking.SutureNeedleHolderCase = EasyPacking.SutureNeedleHolderBox,
+            EasyPacking.TongueDepressorCase = Base.TongueDepressorBox,
             EasyPacking.TweezersCase = EasyPacking.TweezersBox,
+        }
+    }
+
+    craftRecipe EasyPackingPack6FullCase
+    {
+        timedAction = PackingBox,
+        time = 50,
+        Tags = InHandCraft;Packing,
+        category = Packing,
+        inputs
+        {
+            item 6 [Base.TissueBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive;IsFull],
+        }
+        outputs
+        {
+            item 1 mapper:itemType,
+        }
+        itemMapper itemType
+        {
+            EasyPacking.TissueCase = Base.TissueBox,
         }
     }
 
@@ -417,7 +465,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 8 [Base.AdhesiveBandageBox;Base.BandageBox;Base.ColdpackBox;EasyPacking.AlcoholWipesBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.Teabag2Box] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 8 [Base.AdhesiveBandageBox;Base.BandageBox;Base.BatteryBox;Base.ColdpackBox;EasyPacking.AlcoholWipesBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.Teabag2Box] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -428,6 +476,7 @@ module EasyPacking
             EasyPacking.AdhesiveBandageCase = Base.AdhesiveBandageBox,
             EasyPacking.AlcoholWipesCase = EasyPacking.AlcoholWipesBox,
             EasyPacking.BandageCase = Base.BandageBox,
+            EasyPacking.BatteryCase = Base.BatteryBox,
             EasyPacking.ColdpackCase = Base.ColdpackBox,
             EasyPacking.DehydratedMeatStickCase = EasyPacking.DehydratedMeatStickBox,
             EasyPacking.DriedChickpeasCase = EasyPacking.DriedChickpeasBox,
@@ -436,6 +485,7 @@ module EasyPacking
             EasyPacking.PillsBetaCase = EasyPacking.PillsBetaBox,
             EasyPacking.PillsPainCase = EasyPacking.PillsPainBox,
             EasyPacking.PillsSleepingCase = EasyPacking.PillsSleepingBox,
+            EasyPacking.PillsVitaminsCase = EasyPacking.PillsVitaminsBox,
             EasyPacking.Teabag2Case = EasyPacking.Teabag2Box,
         }
     }

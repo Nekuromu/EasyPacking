@@ -69,6 +69,13 @@ module EasyPacking
         scale = 0.32,
     }
 
+    model BatteryCase
+    {
+        mesh = WorldItems/Parcel_Present_4,
+        texture = WorldItems/battery-case,
+        scale = 0.23,
+    }
+
     model BologneseCase
     {
         mesh = WorldItems/Parcel4_Text,
@@ -170,7 +177,7 @@ module EasyPacking
     model ColdpackCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/coldpacks_case,
         scale = 0.265,
     }
 
@@ -272,17 +279,52 @@ module EasyPacking
         scale = 0.23,
     }
 
+    model PillsVitaminsBox
+    {
+        mesh = WorldItems/Parcel5,
+        texture = WorldItems/caffeine-pills_box,
+        scale = 0.12,
+    }
+
+    model PillsVitaminsCase
+    {
+        mesh = WorldItems/Parcel5,
+        texture = WorldItems/caffeine-pills_case,
+        scale = 0.25,
+    }
+
+    model Sardines_Case
+    {
+        mesh = WorldItems/Parcel2,
+        texture = WorldItems/MedicalParcel_Medium,
+        scale = 0.27,
+    }
+
+    model ScalpelBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/MedicalParcel_Medium,
+        scale = 0.15,
+    }
+
+    model ScalpelCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/MedicalParcel_Medium,
+        scale = 0.224,
+    }
+
     model ScissorsBluntMedicalBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/medical-shears_box,
         scale = 0.16,
     }
 
     model ScissorsBluntMedicalCase
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/medical-shears_case,
         scale = 0.32,
     }
 
@@ -302,22 +344,22 @@ module EasyPacking
 
     model StethoscopeBox
     {
-        mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.18,
+        mesh = WorldItems/Parcel_Present_5,
+        texture = WorldItems/stethoscopes-box,
+        scale = 0.41,
     }
 
     model StethoscopeCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.32,
+        texture = WorldItems/stethoscopes-case,
+        scale = 0.47477,
     }
 
     model SutureNeedleCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/suture-needles_case,
         scale = 0.265,
     }
 
@@ -352,8 +394,8 @@ module EasyPacking
     model TongueDepressorCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.25,
+        texture = WorldItems/tongue-depressors_case,
+        scale = 0.239,
     }
 
     model TunaTin_Case
@@ -366,21 +408,21 @@ module EasyPacking
     model TweezersBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/tweezers_box,
         scale = 0.12,
     }
 
     model TweezersCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/tweezers_case,
         scale = 0.23,
     }
 
     model WaterRationCanCase
     {
         mesh = WorldItems/Parcel4_Text,
-        texture = WorldItems/Parcel_Food_04,
+        texture = WorldItems/water-ration-can_case,
         scale = 0.25,
     }
 
