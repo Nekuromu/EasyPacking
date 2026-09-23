@@ -34,8 +34,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 7.0,
         DoubleClickRecipe = EasyPackingOpen12Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = beef-jerky_case,
+        WorldStaticModel = BeefJerkyCase,
     }
 
     item BeefJerkyPack
@@ -44,18 +44,18 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 0.7,
         DoubleClickRecipe = EasyPackingOpen4,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = beef-jerky_box,
+        WorldStaticModel = BeefJerkyPack,
     }
 
     item BeerCanCase
     {
         DisplayCategory = Misc,
         ItemType = base:normal,
-        Weight = 6.0,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Weight = 12.0,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = beer-can-box,
+        WorldStaticModel = BeerCanCase,
     }
 
     item BeerCase
@@ -64,8 +64,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 6.0,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = beer-bottle-box,
+        WorldStaticModel = BeerCase,
     }
 
     item BologneseCase
@@ -206,6 +206,26 @@ module EasyPacking
         DoubleClickRecipe = EasyPackingOpen4Case,
         Icon = Parcel_Medium_Food,
         WorldStaticModel = CannedTomato2Case,
+    }
+
+    item CripsBox
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.0,
+        DoubleClickRecipe = EasyPackingOpen6,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item CripsCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 1.7,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
     }
 
     item DehydratedMeatStickBox
@@ -376,7 +396,7 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 13.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = Parcel_Medium_Food,
+        Icon = water-ration-can_case,
         WorldStaticModel = WaterRationCanCase,
     }
 

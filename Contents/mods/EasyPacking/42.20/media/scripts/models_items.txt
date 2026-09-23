@@ -76,6 +76,34 @@ module EasyPacking
         scale = 0.23,
     }
 
+    model BeefJerkyCase
+    {
+        mesh = WorldItems/Parcel_Present_1,
+        texture = WorldItems/beef-jerky_case,
+        scale = 0.4,
+    }
+
+    model BeefJerkyPack
+    {
+        mesh = WorldItems/Chips,
+        texture = WorldItems/beef-jerky_box,
+        scale = 0.6,
+    }
+
+    model BeerCanCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/beer-can-box,
+        scale = 0.38,
+    }
+
+    model BeerCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/beer-bottle-box,
+        scale = 0.34,
+    }
+
     model BologneseCase
     {
         mesh = WorldItems/Parcel4_Text,
@@ -424,6 +452,20 @@ module EasyPacking
         mesh = WorldItems/Parcel4_Text,
         texture = WorldItems/water-ration-can_case,
         scale = 0.25,
+    }
+
+    model WeldingRodsBox
+    {
+        mesh = WorldItems/WeldingRods_box,
+        texture = WorldItems/weldingrods-box,
+        scale = 1.2,
+    }
+
+    model WeldingRodsCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/weldingrods-case,
+        scale = 0.36,
     }
 
 }

@@ -600,4 +600,18 @@ module Base
         WorldStaticModel = EasyPacking_WaterRationCan_Box,
     }
 
+    item WeldingRods
+    {
+        ConsolidateOption = ContextMenu_Merge,
+        DisplayCategory = Material,
+        Icon = weldingrods,
+        ItemType = base:drainable,
+        MetalValue = 20.0,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        Weight = 1.5,
+        WeightEmpty = 0.2,
+        WorldStaticModel = WeldingRods,
+    }
+
 }

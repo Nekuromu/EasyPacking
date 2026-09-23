@@ -26,4 +26,24 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item WeldingRodsBox
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = weldingrods-box,
+        WorldStaticModel = WeldingRodsBox,
+    }
+
+    item WeldingRodsCase
+    {
+        DisplayCategory = Misc,
+        ItemType = base:normal,
+        Weight = 25.0,
+        DoubleClickRecipe = EasyPackingOpen6Case,
+        Icon = weldingrods-case,
+        WorldStaticModel = WeldingRodsCase,
+    }
+
 }

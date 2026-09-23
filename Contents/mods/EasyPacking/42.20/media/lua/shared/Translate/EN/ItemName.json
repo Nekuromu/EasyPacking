@@ -63,6 +63,8 @@
   "EasyPacking.CleaningLiquid2Case": "Case of Cleaning Liquid",
   "EasyPacking.ColdpackCase": "Case of Coldpacks",
   "EasyPacking.CottonBallsCase": "Case of Cotton Balls",
+  "EasyPacking.CripsBox": "Box of Chips - Plain",
+  "EasyPacking.CripsCase": "Case of Chips - Plain",
   "EasyPacking.DehydratedMeatStickBox": "Box of Dehydrated Meat Stick",
   "EasyPacking.DehydratedMeatStickCase": "Case of Dehydrated Meat Stick",
   "EasyPacking.DisinfectantBox": "Box of Disinfectant",
@@ -101,7 +103,7 @@
   "EasyPacking.LightBulbRedCase": "Case of Light Bulbs - Red",
   "EasyPacking.LightBulbYellowBox": "Box of Light Bulbs - Yellow",
   "EasyPacking.LightBulbYellowCase": "Case of Light Bulbs - Yellow",
-  "EasyPacking.Macandcheese_Case": "New Packed Item",
+  "EasyPacking.Macandcheese_Case": "Case of Mac and Cheese",
   "EasyPacking.PaperclipCase": "Case of Paperclips",
   "EasyPacking.PencilBox": "Box of Pencils",
   "EasyPacking.PencilCase": "Case of Pencils",
@@ -161,5 +163,7 @@
   "EasyPacking.TunaTin_Case": "Case of Canned Tuna",
   "EasyPacking.TweezersBox": "Box of Tweezers",
   "EasyPacking.TweezersCase": "Case of Tweezers",
-  "EasyPacking.WaterRationCanCase": "Case of Water Ration Can"
+  "EasyPacking.WaterRationCanCase": "Case of Water Ration Can",
+  "EasyPacking.WeldingRodsBox": "Box of Welding Rods",
+  "EasyPacking.WeldingRodsCase": "Case of Welding Rods"
 }
