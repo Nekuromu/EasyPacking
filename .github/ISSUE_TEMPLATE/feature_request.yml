@@ -1,0 +1,59 @@
+name: Feature Request
+description: Suggest a new feature or improvement for EasyPacking
+title: "[FEATURE] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting! Please describe the feature in detail. For new packable-item requests, include the source item and the pack size you have in mind.
+
+        **Build 42 note:** EasyPacking is mid-migration to Build 42, where item definitions and recipes moved to the new script format (`ItemType`, `craftRecipe`). When suggesting new packs, referencing the Build 42 structure is helpful — see `DevelopmentDocs/BUILD-41-SUPPORT-CHECKLIST.md` for what B41 families are still missing from the B42 catalog.
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Which part of the mod does this concern?
+      options:
+        - New packable item / recipe
+        - Change to an existing pack (size, weight, recipe)
+        - Build 42 port / migration of a B41-era family
+        - New addon compatibility (patch for another mod)
+        - Translations / localization
+        - Tooling / documentation / other
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear description of the problem. Ex. "I'm always frustrated when..."
+      placeholder: "I'm always frustrated when..."
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: |
+        What should happen? For item/recipe requests include the source item and suggested pack size.
+        Example:
+        - Source item: `Base.Twine`
+        - Pack sizes: 5x, 10x
+        - Weight reduction and notes: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: Other solutions you've thought about.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, examples from other mods, links to the affected items/recipes.
