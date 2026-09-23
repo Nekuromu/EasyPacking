@@ -394,15 +394,15 @@ module EasyPacking
     model SutureNeedleHolderBox
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/forceps_box,
         scale = 0.16,
     }
 
     model SutureNeedleHolderCase
     {
         mesh = WorldItems/Parcel5,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.32,
+        texture = WorldItems/forceps_case,
+        scale = 0.35,
     }
 
     model TinnedBeansCase

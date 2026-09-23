@@ -373,7 +373,7 @@ module EasyPacking
         Weight = 3.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
+        Icon = forceps_box,
         WorldStaticModel = SutureNeedleHolderBox,
     }
 
@@ -383,8 +383,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 12.0,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen6Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = forceps_case,
         WorldStaticModel = SutureNeedleHolderCase,
     }
 

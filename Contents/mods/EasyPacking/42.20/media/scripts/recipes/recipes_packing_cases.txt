@@ -175,7 +175,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AlcoholBandageCase;EasyPacking.BandageCaseDirty;EasyPacking.CottonBallsCase;EasyPacking.Macandcheese_Case;EasyPacking.PaperclipCase;EasyPacking.PillsAntiDepCase;EasyPacking.SutureNeedleCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.TongueDepressorCase;EasyPacking.TweezersCase;EasyPacking.WeldingRodsCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AlcoholBandageCase;EasyPacking.BandageCaseDirty;EasyPacking.CottonBallsCase;EasyPacking.Macandcheese_Case;EasyPacking.PaperclipCase;EasyPacking.PillsAntiDepCase;EasyPacking.SutureNeedleCase;EasyPacking.TongueDepressorCase;EasyPacking.TweezersCase;EasyPacking.WeldingRodsCase] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -191,7 +191,6 @@ module EasyPacking
             EasyPacking.AlcoholBandageBox = EasyPacking.AlcoholBandageCase,
             EasyPacking.BandageBoxDirty = EasyPacking.BandageCaseDirty,
             EasyPacking.PillsAntiDepBox = EasyPacking.PillsAntiDepCase,
-            EasyPacking.SutureNeedleHolderBox = EasyPacking.SutureNeedleHolderCase,
             EasyPacking.TweezersBox = EasyPacking.TweezersCase,
             EasyPacking.WeldingRodsBox = EasyPacking.WeldingRodsCase,
         }
@@ -225,7 +224,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.BandageCase;EasyPacking.BatteryCase;EasyPacking.BeerCanCase;EasyPacking.ColdpackCase;EasyPacking.DehydratedMeatStickCase;EasyPacking.DriedChickpeasCase;EasyPacking.DriedSplitPeasCase;EasyPacking.EnginePartsCase;EasyPacking.PillsBetaCase;EasyPacking.PillsPainCase;EasyPacking.PillsSleepingCase;EasyPacking.PillsVitaminsCase;EasyPacking.Teabag2Case] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AdhesiveBandageCase;EasyPacking.AlcoholWipesCase;EasyPacking.BandageCase;EasyPacking.BatteryCase;EasyPacking.BeerCanCase;EasyPacking.ColdpackCase;EasyPacking.DehydratedMeatStickCase;EasyPacking.DriedChickpeasCase;EasyPacking.DriedSplitPeasCase;EasyPacking.EnginePartsCase;EasyPacking.PillsBetaCase;EasyPacking.PillsPainCase;EasyPacking.PillsSleepingCase;EasyPacking.PillsVitaminsCase;EasyPacking.SutureNeedleHolderCase;EasyPacking.Teabag2Case] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -247,6 +246,7 @@ module EasyPacking
             EasyPacking.PillsPainBox = EasyPacking.PillsPainCase,
             EasyPacking.PillsSleepingBox = EasyPacking.PillsSleepingCase,
             EasyPacking.PillsVitaminsBox = EasyPacking.PillsVitaminsCase,
+            EasyPacking.SutureNeedleHolderBox = EasyPacking.SutureNeedleHolderCase,
             EasyPacking.Teabag2Box = EasyPacking.Teabag2Case,
         }
     }
@@ -420,7 +420,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 6 [Base.CottonBallsBox;Base.Macandcheese_Box;Base.PaperclipBox;Base.SutureNeedleBox;Base.TongueDepressorBox;EasyPacking.AlcoholBandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsAntiDepBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.TweezersBox;EasyPacking.WeldingRodsBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.CottonBallsBox;Base.Macandcheese_Box;Base.PaperclipBox;Base.SutureNeedleBox;Base.TongueDepressorBox;EasyPacking.AlcoholBandageBox;EasyPacking.BandageBoxDirty;EasyPacking.PillsAntiDepBox;EasyPacking.TweezersBox;EasyPacking.WeldingRodsBox] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -435,7 +435,6 @@ module EasyPacking
             EasyPacking.PaperclipCase = Base.PaperclipBox,
             EasyPacking.PillsAntiDepCase = EasyPacking.PillsAntiDepBox,
             EasyPacking.SutureNeedleCase = Base.SutureNeedleBox,
-            EasyPacking.SutureNeedleHolderCase = EasyPacking.SutureNeedleHolderBox,
             EasyPacking.TongueDepressorCase = Base.TongueDepressorBox,
             EasyPacking.TweezersCase = EasyPacking.TweezersBox,
             EasyPacking.WeldingRodsCase = EasyPacking.WeldingRodsBox,
@@ -470,7 +469,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 8 [Base.AdhesiveBandageBox;Base.BandageBox;Base.BatteryBox;Base.BeerCanPack;Base.ColdpackBox;EasyPacking.AlcoholWipesBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.Teabag2Box] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 8 [Base.AdhesiveBandageBox;Base.BandageBox;Base.BatteryBox;Base.BeerCanPack;Base.ColdpackBox;EasyPacking.AlcoholWipesBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsBetaBox;EasyPacking.PillsPainBox;EasyPacking.PillsSleepingBox;EasyPacking.PillsVitaminsBox;EasyPacking.SutureNeedleHolderBox;EasyPacking.Teabag2Box] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -492,6 +491,7 @@ module EasyPacking
             EasyPacking.PillsPainCase = EasyPacking.PillsPainBox,
             EasyPacking.PillsSleepingCase = EasyPacking.PillsSleepingBox,
             EasyPacking.PillsVitaminsCase = EasyPacking.PillsVitaminsBox,
+            EasyPacking.SutureNeedleHolderCase = EasyPacking.SutureNeedleHolderBox,
             EasyPacking.Teabag2Case = EasyPacking.Teabag2Box,
         }
     }
