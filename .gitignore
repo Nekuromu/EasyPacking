@@ -13,6 +13,7 @@ Tools/*
 # Editor/IDE
 .vscode/*
 .emmyrc.json
+.opencode
 
 # OS Files
 Thumbs.db
