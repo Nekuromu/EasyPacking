@@ -339,7 +339,7 @@ module EasyPacking
     {
         mesh = WorldItems/Parcel4,
         texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.224,
+        scale = 0.24,
     }
 
     model ScissorsBluntMedicalBox
@@ -359,15 +359,15 @@ module EasyPacking
     model SplintBox
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/splints_box,
         scale = 0.18,
     }
 
     model SplintCase
     {
         mesh = WorldItems/Parcel3,
-        texture = WorldItems/MedicalParcel_Medium,
-        scale = 0.32,
+        texture = WorldItems/splints_case,
+        scale = 0.28556,
     }
 
     model StethoscopeBox

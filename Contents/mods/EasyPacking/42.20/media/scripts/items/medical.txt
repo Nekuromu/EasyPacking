@@ -318,7 +318,7 @@ module EasyPacking
         Weight = 3.0,
         Medical = true,
         DoubleClickRecipe = EasyPackingOpen4,
-        Icon = PakRatTODO,
+        Icon = splints_box,
         WorldStaticModel = SplintBox,
     }
 
@@ -328,8 +328,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 10.0,
         Medical = true,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = splints_case,
         WorldStaticModel = SplintCase,
     }
 
