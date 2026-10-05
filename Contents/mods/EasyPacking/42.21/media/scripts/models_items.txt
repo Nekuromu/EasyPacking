@@ -331,14 +331,14 @@ module EasyPacking
     model ScalpelBox
     {
         mesh = WorldItems/Parcel_Present_3,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/scalpel_box,
         scale = 0.15,
     }
 
     model ScalpelCase
     {
         mesh = WorldItems/Parcel4,
-        texture = WorldItems/MedicalParcel_Medium,
+        texture = WorldItems/scalpel_case,
         scale = 0.24,
     }
 
