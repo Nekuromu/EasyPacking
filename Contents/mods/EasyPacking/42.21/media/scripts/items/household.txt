@@ -8,7 +8,7 @@ module EasyPacking
 
     item BlackPenBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.8,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -18,7 +18,7 @@ module EasyPacking
 
     item BlackPenCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -28,7 +28,7 @@ module EasyPacking
 
     item BleachBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.7,
         DoubleClickRecipe = EasyPackingOpen4,
@@ -38,7 +38,7 @@ module EasyPacking
 
     item BleachCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 2.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -48,7 +48,7 @@ module EasyPacking
 
     item BluePenBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.8,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -58,7 +58,7 @@ module EasyPacking
 
     item BluePenCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -68,7 +68,7 @@ module EasyPacking
 
     item CleaningLiquid2Box
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 2.0,
         DoubleClickRecipe = EasyPackingOpen8,
@@ -78,7 +78,7 @@ module EasyPacking
 
     item CleaningLiquid2Case
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -88,7 +88,7 @@ module EasyPacking
 
     item GreenPenBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.8,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -98,7 +98,7 @@ module EasyPacking
 
     item GreenPenCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -108,7 +108,7 @@ module EasyPacking
 
     item PencilBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.8,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -118,7 +118,7 @@ module EasyPacking
 
     item PencilCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -128,7 +128,7 @@ module EasyPacking
 
     item PencilSpiffoBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -138,7 +138,7 @@ module EasyPacking
 
     item PencilSpiffoCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 2.8,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -148,7 +148,7 @@ module EasyPacking
 
     item PenFancyBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -158,7 +158,7 @@ module EasyPacking
 
     item PenFancyCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 2.8,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -168,7 +168,7 @@ module EasyPacking
 
     item PenMultiColorBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -178,7 +178,7 @@ module EasyPacking
 
     item PenMultiColorCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 2.8,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -188,7 +188,7 @@ module EasyPacking
 
     item PenSpiffoBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -198,7 +198,7 @@ module EasyPacking
 
     item PenSpiffoCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Memento,
         ItemType = base:normal,
         Weight = 2.8,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -208,7 +208,7 @@ module EasyPacking
 
     item RedPenBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.8,
         DoubleClickRecipe = EasyPackingOpen10,
@@ -218,7 +218,7 @@ module EasyPacking
 
     item RedPenCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 1.3,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -228,7 +228,7 @@ module EasyPacking
 
     item RippedSheetsCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -238,7 +238,7 @@ module EasyPacking
 
     item RippedSheetsDirtyBundle
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -248,7 +248,7 @@ module EasyPacking
 
     item Soap2Box
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 0.7,
         DoubleClickRecipe = EasyPackingOpen4,
@@ -258,7 +258,7 @@ module EasyPacking
 
     item Soap2Case
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Household,
         ItemType = base:normal,
         Weight = 2.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -268,7 +268,7 @@ module EasyPacking
 
     item ToiletPaperCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Junk,
         ItemType = base:normal,
         Weight = 17.0,
         DoubleClickRecipe = EasyPackingOpen12Case,
@@ -278,7 +278,7 @@ module EasyPacking
 
     item ToiletPaperPack
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Junk,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen4,

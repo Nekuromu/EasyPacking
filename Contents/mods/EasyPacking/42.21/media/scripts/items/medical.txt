@@ -261,7 +261,7 @@ module EasyPacking
 
     item RippedSheetsSterilizedCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.7,
         DoubleClickRecipe = EasyPackingOpen2Case,
@@ -271,21 +271,21 @@ module EasyPacking
 
     item ScalpelBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = FirstAid,
         ItemType = base:normal,
         Weight = 1.5,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
+        Icon = scalpel_box,
         WorldStaticModel = ScalpelBox,
     }
 
     item ScalpelCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = FirstAid,
         ItemType = base:normal,
         Weight = 2.5,
         DoubleClickRecipe = EasyPackingOpen2Case,
-        Icon = PakRatTODO,
+        Icon = scalpel_case,
         WorldStaticModel = ScalpelCase,
     }
 
@@ -390,7 +390,7 @@ module EasyPacking
 
     item TissueCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = FirstAid,
         ItemType = base:normal,
         Weight = 5.0,
         DoubleClickRecipe = EasyPackingOpen6FullCase,

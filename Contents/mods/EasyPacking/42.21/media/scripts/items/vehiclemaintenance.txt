@@ -8,7 +8,7 @@ module EasyPacking
 
     item EnginePartsBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = VehicleMaintenance,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4,
@@ -18,7 +18,7 @@ module EasyPacking
 
     item EnginePartsCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = VehicleMaintenance,
         ItemType = base:normal,
         Weight = 22.0,
         DoubleClickRecipe = EasyPackingOpen8Case,

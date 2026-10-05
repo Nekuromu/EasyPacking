@@ -8,7 +8,7 @@ module EasyPacking
 
     item AdhesiveTapeCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 10.0,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -18,7 +18,7 @@ module EasyPacking
 
     item PaperclipCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.5,
         DoubleClickRecipe = EasyPackingOpen6Case,
@@ -28,7 +28,7 @@ module EasyPacking
 
     item WeldingRodsBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 5.0,
         DoubleClickRecipe = EasyPackingOpen4,
@@ -38,7 +38,7 @@ module EasyPacking
 
     item WeldingRodsCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 25.0,
         DoubleClickRecipe = EasyPackingOpen6Case,

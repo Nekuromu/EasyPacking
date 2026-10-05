@@ -8,7 +8,7 @@ module EasyPacking
 
     item AmplifierBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -18,7 +18,7 @@ module EasyPacking
 
     item AmplifierCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 10.0,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -28,7 +28,7 @@ module EasyPacking
 
     item BatteryCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 6.7,
         DoubleClickRecipe = EasyPackingOpen8Case,
@@ -38,7 +38,7 @@ module EasyPacking
 
     item ElectricalWireBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -48,7 +48,7 @@ module EasyPacking
 
     item ElectricalWireCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -58,7 +58,7 @@ module EasyPacking
 
     item ElectronicsScrapBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -68,7 +68,7 @@ module EasyPacking
 
     item ElectronicsScrapCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -78,7 +78,7 @@ module EasyPacking
 
     item LightBulbBlueBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -88,7 +88,7 @@ module EasyPacking
 
     item LightBulbBlueCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -98,7 +98,7 @@ module EasyPacking
 
     item LightBulbCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -108,7 +108,7 @@ module EasyPacking
 
     item LightBulbCyanBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -118,7 +118,7 @@ module EasyPacking
 
     item LightBulbCyanCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -128,7 +128,7 @@ module EasyPacking
 
     item LightBulbGreenBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -138,7 +138,7 @@ module EasyPacking
 
     item LightBulbGreenCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -148,7 +148,7 @@ module EasyPacking
 
     item LightBulbMagentaBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -158,7 +158,7 @@ module EasyPacking
 
     item LightBulbMagentaCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -168,7 +168,7 @@ module EasyPacking
 
     item LightBulbOrangeBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -178,7 +178,7 @@ module EasyPacking
 
     item LightBulbOrangeCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -188,7 +188,7 @@ module EasyPacking
 
     item LightBulbPinkBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -198,7 +198,7 @@ module EasyPacking
 
     item LightBulbPinkCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -208,7 +208,7 @@ module EasyPacking
 
     item LightBulbPurpleBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -218,7 +218,7 @@ module EasyPacking
 
     item LightBulbPurpleCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -228,7 +228,7 @@ module EasyPacking
 
     item LightBulbRedBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -238,7 +238,7 @@ module EasyPacking
 
     item LightBulbRedCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -248,7 +248,7 @@ module EasyPacking
 
     item LightBulbYellowBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
@@ -258,7 +258,7 @@ module EasyPacking
 
     item LightBulbYellowCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -268,7 +268,7 @@ module EasyPacking
 
     item RadioReceiverBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -278,7 +278,7 @@ module EasyPacking
 
     item RadioReceiverCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -288,7 +288,7 @@ module EasyPacking
 
     item RadioTransmitterBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -298,7 +298,7 @@ module EasyPacking
 
     item RadioTransmitterCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Electronics,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,

@@ -8,7 +8,7 @@ module EasyPacking
 
     item FishlingLineBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Fishing,
         ItemType = base:normal,
         Weight = 3.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -18,7 +18,7 @@ module EasyPacking
 
     item FishlingLineCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Fishing,
         ItemType = base:normal,
         Weight = 10.0,
         DoubleClickRecipe = EasyPackingOpen4Case,
@@ -28,7 +28,7 @@ module EasyPacking
 
     item PremiumFishingLineBox
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Fishing,
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
@@ -38,7 +38,7 @@ module EasyPacking
 
     item PremiumFishingLineCase
     {
-        DisplayCategory = Misc,
+        DisplayCategory = Fishing,
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
