@@ -419,6 +419,13 @@ module EasyPacking
         scale = 0.25,
     }
 
+    model TissueCase
+    {
+        mesh = WorldItems/Parcel5,
+        texture = WorldItems/tissue_case,
+        scale = 0.31,
+    }
+
     model TongueDepressorCase
     {
         mesh = WorldItems/Parcel3,

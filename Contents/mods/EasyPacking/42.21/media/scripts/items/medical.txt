@@ -394,8 +394,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 5.0,
         DoubleClickRecipe = EasyPackingOpen6FullCase,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = tissue_case,
+        WorldStaticModel = TissueCase,
     }
 
     item TongueDepressorCase

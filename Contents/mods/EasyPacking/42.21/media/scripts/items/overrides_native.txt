@@ -544,6 +544,26 @@ module Base
         WorldStaticModel = EasyPacking_TinnedSoup_Box,
     }
 
+    model EasyPacking_TissueBox
+    {
+        mesh = WorldItems/TissueBox,
+        texture = WorldItems/tissue_box,
+        scale = 0.1,
+    }
+
+    item TissueBox
+    {
+        DisplayCategory = FirstAid,
+        FireFuelRatio = 0.25,
+        Icon = tissue_box,
+        ItemType = base:drainable,
+        Tags = base:isfirefuel,
+        UseDelta = 0.05,
+        UseWhileEquipped = false,
+        Weight = 1.0,
+        WorldStaticModel = EasyPacking_TissueBox,
+    }
+
     model EasyPacking_TongueDepressorBox
     {
         mesh = WorldItems/Parcel_Present_5,
