@@ -62,8 +62,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = scrap-electronics_box,
+        WorldStaticModel = ElectronicsScrapBox,
     }
 
     item ElectronicsScrapCase

@@ -99,7 +99,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.BeefJerkyPack;EasyPacking.BleachBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsAntiDepBox;EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.ToiletPaperPack;EasyPacking.WeldingRodsBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AluminumBox;EasyPacking.BeefJerkyPack;EasyPacking.BleachBox;EasyPacking.DriedChickpeasBox;EasyPacking.DriedSplitPeasBox;EasyPacking.EnginePartsBox;EasyPacking.PillsAntiDepBox;EasyPacking.Soap2Box;EasyPacking.SplintBox;EasyPacking.ToiletPaperPack;EasyPacking.WeldingRodsBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -107,6 +107,7 @@ module EasyPacking
         }
         itemMapper boxType
         {
+            Base.Aluminum = EasyPacking.AluminumBox,
             Base.BeefJerky = EasyPacking.BeefJerkyPack,
             Base.Bleach = EasyPacking.BleachBox,
             Base.DriedChickpeas = EasyPacking.DriedChickpeasBox,
@@ -128,7 +129,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 1 [EasyPacking.CripsBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DisinfectantBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox;EasyPacking.ScalpelBox;EasyPacking.YogurtBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
+            item 1 [EasyPacking.AluminumScrapBox;EasyPacking.CripsBox;EasyPacking.DehydratedMeatStickBox;EasyPacking.DisinfectantBox;EasyPacking.LightBulbBlueBox;EasyPacking.LightBulbCyanBox;EasyPacking.LightBulbGreenBox;EasyPacking.LightBulbMagentaBox;EasyPacking.LightBulbOrangeBox;EasyPacking.LightBulbPinkBox;EasyPacking.LightBulbPurpleBox;EasyPacking.LightBulbRedBox;EasyPacking.LightBulbYellowBox;EasyPacking.ScalpelBox;EasyPacking.ScrapMetalBox;EasyPacking.YogurtBox] mappers[boxType] flags[AllowFavorite;InheritFavorite],
         }
         outputs
         {
@@ -136,6 +137,7 @@ module EasyPacking
         }
         itemMapper boxType
         {
+            Base.AluminumScrap = EasyPacking.AluminumScrapBox,
             Base.Crisps = EasyPacking.CripsBox,
             Base.DehydratedMeatStick = EasyPacking.DehydratedMeatStickBox,
             Base.Disinfectant = EasyPacking.DisinfectantBox,
@@ -149,6 +151,7 @@ module EasyPacking
             Base.LightBulbRed = EasyPacking.LightBulbRedBox,
             Base.LightBulbYellow = EasyPacking.LightBulbYellowBox,
             Base.Scalpel = EasyPacking.ScalpelBox,
+            Base.ScrapMetal = EasyPacking.ScrapMetalBox,
             Base.Yoghurt = EasyPacking.YogurtBox,
         }
     }
@@ -266,7 +269,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 4 [Base.BeefJerky;Base.Bleach;Base.DriedChickpeas;Base.DriedSplitPeas;Base.EngineParts;Base.PillsAntiDep;Base.Soap2;Base.Splint;Base.ToiletPaper;Base.WeldingRods] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 4 [Base.Aluminum;Base.BeefJerky;Base.Bleach;Base.DriedChickpeas;Base.DriedSplitPeas;Base.EngineParts;Base.PillsAntiDep;Base.Soap2;Base.Splint;Base.ToiletPaper;Base.WeldingRods] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -274,6 +277,7 @@ module EasyPacking
         }
         itemMapper itemType
         {
+            EasyPacking.AluminumBox = Base.Aluminum,
             EasyPacking.BeefJerkyPack = Base.BeefJerky,
             EasyPacking.BleachBox = Base.Bleach,
             EasyPacking.DriedChickpeasBox = Base.DriedChickpeas,
@@ -295,7 +299,7 @@ module EasyPacking
         category = Packing,
         inputs
         {
-            item 6 [Base.Crisps;Base.DehydratedMeatStick;Base.Disinfectant;Base.LightBulbBlue;Base.LightBulbCyan;Base.LightBulbGreen;Base.LightBulbMagenta;Base.LightBulbOrange;Base.LightBulbPink;Base.LightBulbPurple;Base.LightBulbRed;Base.LightBulbYellow;Base.Scalpel;Base.Yoghurt] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
+            item 6 [Base.AluminumScrap;Base.Crisps;Base.DehydratedMeatStick;Base.Disinfectant;Base.LightBulbBlue;Base.LightBulbCyan;Base.LightBulbGreen;Base.LightBulbMagenta;Base.LightBulbOrange;Base.LightBulbPink;Base.LightBulbPurple;Base.LightBulbRed;Base.LightBulbYellow;Base.Scalpel;Base.ScrapMetal;Base.Yoghurt] mappers[itemType] flags[AllowFavorite;InheritFavorite;IsExclusive],
         }
         outputs
         {
@@ -303,6 +307,7 @@ module EasyPacking
         }
         itemMapper itemType
         {
+            EasyPacking.AluminumScrapBox = Base.AluminumScrap,
             EasyPacking.CripsBox = Base.Crisps,
             EasyPacking.DehydratedMeatStickBox = Base.DehydratedMeatStick,
             EasyPacking.DisinfectantBox = Base.Disinfectant,
@@ -316,6 +321,7 @@ module EasyPacking
             EasyPacking.LightBulbRedBox = Base.LightBulbRed,
             EasyPacking.LightBulbYellowBox = Base.LightBulbYellow,
             EasyPacking.ScalpelBox = Base.Scalpel,
+            EasyPacking.ScrapMetalBox = Base.ScrapMetal,
             EasyPacking.YogurtBox = Base.Yoghurt,
         }
     }

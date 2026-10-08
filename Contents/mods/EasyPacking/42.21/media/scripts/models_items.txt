@@ -237,6 +237,13 @@ module EasyPacking
         scale = 0.25,
     }
 
+    model ElectronicsScrapBox
+    {
+        mesh = WorldItems/ScrapElectronics_box,
+        texture = WorldItems/scrap-electronics_box,
+        scale = 0.55,
+    }
+
     model Macandcheese_Case
     {
         mesh = WorldItems/Parcel4_Text,
@@ -354,6 +361,13 @@ module EasyPacking
         mesh = WorldItems/Parcel5,
         texture = WorldItems/medical-shears_case,
         scale = 0.32,
+    }
+
+    model ScrapMetalBox
+    {
+        mesh = WorldItems/ScrapMetal_box,
+        texture = WorldItems/scrap-metal_box,
+        scale = 0.75,
     }
 
     model SplintBox

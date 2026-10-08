@@ -400,6 +400,26 @@ module EasyPacking
         WorldStaticModel = WaterRationCanCase,
     }
 
+    item WineRedCase
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 10.8,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item WineWhiteCase
+    {
+        DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 10.8,
+        DoubleClickRecipe = EasyPackingOpen2Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item YogurtBox
     {
         DisplayCategory = Food,

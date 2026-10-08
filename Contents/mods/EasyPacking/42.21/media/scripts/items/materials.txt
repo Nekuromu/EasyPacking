@@ -16,12 +16,72 @@ module EasyPacking
         WorldStaticModel = PakRatTODO,
     }
 
+    item AluminumBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.3,
+        DoubleClickRecipe = EasyPackingOpen4,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item AluminumCase
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.0,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item AluminumScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        DoubleClickRecipe = EasyPackingOpen6,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item AluminumScrapCase
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 8.3,
+        DoubleClickRecipe = EasyPackingOpen4Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
     item PaperclipCase
     {
         DisplayCategory = Material,
         ItemType = base:normal,
         Weight = 1.5,
         DoubleClickRecipe = EasyPackingOpen6Case,
+        Icon = PakRatTODO,
+        WorldStaticModel = PakRatTODO,
+    }
+
+    item ScrapMetalBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen6,
+        Icon = scrap-metal_box,
+        WorldStaticModel = ScrapMetalBox,
+    }
+
+    item ScrapMetalCase
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 16.7,
+        DoubleClickRecipe = EasyPackingOpen4Case,
         Icon = PakRatTODO,
         WorldStaticModel = PakRatTODO,
     }
