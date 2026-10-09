@@ -68,7 +68,7 @@ module Base
     {
         mesh = WorldItems/Batteries_box,
         texture = WorldItems/battery-box,
-        scale = 1.0,
+        scale = 0.8,
     }
 
     item BatteryBox

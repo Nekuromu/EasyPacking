@@ -30,8 +30,8 @@ module EasyPacking
     {
         DisplayCategory = Electronics,
         ItemType = base:normal,
-        Weight = 6.7,
-        DoubleClickRecipe = EasyPackingOpen8Case,
+        Weight = 8.3,
+        DoubleClickRecipe = EasyPackingOpen10Case,
         Icon = battery-case,
         WorldStaticModel = BatteryCase,
     }

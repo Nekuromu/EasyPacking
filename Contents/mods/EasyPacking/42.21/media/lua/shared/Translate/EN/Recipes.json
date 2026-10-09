@@ -1,5 +1,6 @@
 {
   "EasyPackingOpen10": "Open Box of 10",
+  "EasyPackingOpen10Case": "Open Case of 10",
   "EasyPackingOpen12": "Open Box of 12",
   "EasyPackingOpen12Case": "Open Case of 12",
   "EasyPackingOpen16": "Open Box of 16",
@@ -14,6 +15,7 @@
   "EasyPackingOpen8": "Open Box of 8",
   "EasyPackingOpen8Case": "Open Case of 8",
   "EasyPackingPack10": "Pack 10 in a Box",
+  "EasyPackingPack10Case": "Pack 10 in a Case",
   "EasyPackingPack12": "Pack 12 in a Box",
   "EasyPackingPack12Case": "Pack 12 in a Case",
   "EasyPackingPack16": "Pack 16 in a Box",

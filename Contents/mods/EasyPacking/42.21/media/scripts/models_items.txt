@@ -73,7 +73,7 @@ module EasyPacking
     {
         mesh = WorldItems/Parcel_Present_4,
         texture = WorldItems/battery-case,
-        scale = 0.23,
+        scale = 0.2,
     }
 
     model BeefJerkyCase
