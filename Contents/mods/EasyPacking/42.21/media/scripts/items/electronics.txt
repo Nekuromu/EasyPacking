@@ -82,8 +82,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-blue_box,
+        WorldStaticModel = LightBulbBlueBox,
     }
 
     item LightBulbBlueCase
@@ -92,18 +92,18 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbBlueCase,
     }
 
     item LightBulbCase
     {
         DisplayCategory = Electronics,
         ItemType = base:normal,
-        Weight = 3.3,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Weight = 6.7,
+        DoubleClickRecipe = EasyPackingOpen8Case,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbCase,
     }
 
     item LightBulbCyanBox
@@ -112,8 +112,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-cyan_box,
+        WorldStaticModel = LightBulbCyanBox,
     }
 
     item LightBulbCyanCase
@@ -122,8 +122,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbCyanCase,
     }
 
     item LightBulbGreenBox
@@ -132,8 +132,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-green_box,
+        WorldStaticModel = LightBulbGreenBox,
     }
 
     item LightBulbGreenCase
@@ -142,8 +142,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbGreenCase,
     }
 
     item LightBulbMagentaBox
@@ -152,8 +152,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-magenta_box,
+        WorldStaticModel = LightBulbMagentaBox,
     }
 
     item LightBulbMagentaCase
@@ -162,8 +162,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbMagentaCase,
     }
 
     item LightBulbOrangeBox
@@ -172,8 +172,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-orange_box,
+        WorldStaticModel = LightBulbOrangeBox,
     }
 
     item LightBulbOrangeCase
@@ -182,8 +182,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbOrangeCase,
     }
 
     item LightBulbPinkBox
@@ -192,8 +192,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-pink_box,
+        WorldStaticModel = LightBulbPinkBox,
     }
 
     item LightBulbPinkCase
@@ -202,8 +202,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbPinkCase,
     }
 
     item LightBulbPurpleBox
@@ -212,8 +212,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-purple_box,
+        WorldStaticModel = LightBulbPurpleBox,
     }
 
     item LightBulbPurpleCase
@@ -222,8 +222,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbPurpleCase,
     }
 
     item LightBulbRedBox
@@ -232,8 +232,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-red_box,
+        WorldStaticModel = LightBulbRedBox,
     }
 
     item LightBulbRedCase
@@ -242,8 +242,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbRedCase,
     }
 
     item LightBulbYellowBox
@@ -252,8 +252,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen6,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-yellow_box,
+        WorldStaticModel = LightBulbYellowBox,
     }
 
     item LightBulbYellowCase
@@ -262,8 +262,8 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 3.3,
         DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = light-bulb-case,
+        WorldStaticModel = LightBulbYellowCase,
     }
 
     item RadioReceiverBox

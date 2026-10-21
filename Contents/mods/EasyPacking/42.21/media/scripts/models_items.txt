@@ -244,6 +244,139 @@ module EasyPacking
         scale = 0.55,
     }
 
+    model LightBulbBlueBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-blue_box,
+        scale = 0.15,
+    }
+
+    model LightBulbBlueCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbCyanBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-cyan_box,
+        scale = 0.15,
+    }
+
+    model LightBulbCyanCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbGreenBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-green_box,
+        scale = 0.15,
+    }
+
+    model LightBulbGreenCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbMagentaBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-magenta_box,
+        scale = 0.15,
+    }
+
+    model LightBulbMagentaCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbOrangeBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-orange_box,
+        scale = 0.15,
+    }
+
+    model LightBulbOrangeCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbPinkBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-pink_box,
+        scale = 0.15,
+    }
+
+    model LightBulbPinkCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbPurpleBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-purple_box,
+        scale = 0.15,
+    }
+
+    model LightBulbPurpleCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbRedBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-red_box,
+        scale = 0.15,
+    }
+
+    model LightBulbRedCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
+    model LightBulbYellowBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb-yellow_box,
+        scale = 0.15,
+    }
+
+    model LightBulbYellowCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/light-bulb-case,
+        scale = 0.25,
+    }
+
     model Macandcheese_Case
     {
         mesh = WorldItems/Parcel4_Text,

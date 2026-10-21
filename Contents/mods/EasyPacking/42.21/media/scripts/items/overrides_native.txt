@@ -390,6 +390,24 @@ module Base
         WorldStaticModel = EasyPacking_Dogfood_Box,
     }
 
+    model EasyPacking_LightBulbBox
+    {
+        mesh = WorldItems/Parcel_Present_3,
+        texture = WorldItems/light-bulb_box,
+        scale = 0.15,
+    }
+
+    item LightBulbBox
+    {
+        DisplayCategory = Electronics,
+        DoubleClickRecipe = UnpackBox6,
+        Icon = light-bulb_box,
+        ItemType = base:normal,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        Weight = 1.0,
+        WorldStaticModel = EasyPacking_LightBulbBox,
+    }
+
     model EasyPacking_Macandcheese_Box
     {
         mesh = WorldItems/Parcel4_Text,
