@@ -652,4 +652,40 @@ module Base
         WorldStaticModel = WeldingRods,
     }
 
+    model EasyPacking_WineRed_Boxed
+    {
+        mesh = WorldItems/Woodenbox_Wine,
+        texture = WorldItems/red-wine_box,
+        scale = 0.88,
+    }
+
+    item WineRed_Boxed
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfWine,
+        Icon = Parcel_Large_Liquor,
+        ItemType = base:normal,
+        Tags = base:ignorezombiedensity,
+        Weight = 6.5,
+        WorldStaticModel = EasyPacking_WineRed_Boxed,
+    }
+
+    model EasyPacking_WineWhite_Boxed
+    {
+        mesh = WorldItems/Woodenbox_Wine,
+        texture = WorldItems/white-wine_box,
+        scale = 0.88,
+    }
+
+    item WineWhite_Boxed
+    {
+        DisplayCategory = Food,
+        DoubleClickRecipe = OpenBoxOfWine,
+        Icon = Parcel_Large_Liquor,
+        ItemType = base:normal,
+        Tags = base:ignorezombiedensity,
+        Weight = 6.5,
+        WorldStaticModel = EasyPacking_WineWhite_Boxed,
+    }
+
 }
