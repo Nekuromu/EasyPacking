@@ -13,7 +13,7 @@ module EasyPacking
         Weight = 3.0,
         DoubleClickRecipe = EasyPackingOpen12,
         Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        WorldStaticModel = FishlingLineBox,
     }
 
     item FishlingLineCase
@@ -33,7 +33,7 @@ module EasyPacking
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
         Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        WorldStaticModel = PremiumFishingLineBox,
     }
 
     item PremiumFishingLineCase

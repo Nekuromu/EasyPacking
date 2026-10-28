@@ -239,7 +239,7 @@ module EasyPacking
 
     model ElectricalWireBox
     {
-        mesh = WorldItems/Large_spool,
+        mesh = WorldItems/Spool_Large,
         texture = WorldItems/electrical-wire_box,
         scale = 1.0,
     }
@@ -256,6 +256,13 @@ module EasyPacking
         mesh = WorldItems/ScrapElectronics_box,
         texture = WorldItems/scrap-electronics_box,
         scale = 0.55,
+    }
+
+    model FishlingLineBox
+    {
+        mesh = WorldItems/Spool_Large,
+        texture = WorldItems/FishingLine,
+        scale = 1.0,
     }
 
     model LightBulbBlueBox
@@ -473,6 +480,13 @@ module EasyPacking
         mesh = WorldItems/Parcel5,
         texture = WorldItems/caffeine-pills_case,
         scale = 0.25,
+    }
+
+    model PremiumFishingLineBox
+    {
+        mesh = WorldItems/Spool_Large,
+        texture = WorldItems/FishingLinePremium,
+        scale = 1.0,
     }
 
     model Sardines_Case
