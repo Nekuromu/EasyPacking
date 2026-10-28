@@ -237,6 +237,20 @@ module EasyPacking
         scale = 0.25,
     }
 
+    model ElectricalWireBox
+    {
+        mesh = WorldItems/Large_spool,
+        texture = WorldItems/electrical-wire_box,
+        scale = 1.0,
+    }
+
+    model ElectricalWireCase
+    {
+        mesh = WorldItems/Parcel4,
+        texture = WorldItems/electrical-wire_case,
+        scale = 0.42,
+    }
+
     model ElectronicsScrapBox
     {
         mesh = WorldItems/ScrapElectronics_box,

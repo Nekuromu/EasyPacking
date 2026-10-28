@@ -42,18 +42,18 @@ module EasyPacking
         ItemType = base:normal,
         Weight = 1.0,
         DoubleClickRecipe = EasyPackingOpen12,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Icon = electrical-wire_box,
+        WorldStaticModel = ElectricalWireBox,
     }
 
     item ElectricalWireCase
     {
         DisplayCategory = Electronics,
         ItemType = base:normal,
-        Weight = 3.3,
-        DoubleClickRecipe = EasyPackingOpen4Case,
-        Icon = PakRatTODO,
-        WorldStaticModel = PakRatTODO,
+        Weight = 5.0,
+        DoubleClickRecipe = EasyPackingOpen6Case,
+        Icon = electrical-wire_case,
+        WorldStaticModel = ElectricalWireCase,
     }
 
     item ElectronicsScrapBox
